@@ -18,13 +18,27 @@ Day 1 : Topic: Introduction to .NET \& C# Foundation 🛠️
 
 Day 2 : Topic: Basics of C# Language 🛠️
 
-&nbsp;	Concepts Mastered:
+ 	Concepts Mastered:
 
  	     ->	 ⚙️ Understanding DataTypes and Operators used in C#
 
-&nbsp;	Hands-on Practice:
+&nbsp;	     ->  🧠 Understanding Foundational Concepts of : 
 
- 	     ->	 💻 Solved foundational problems.
+&nbsp;			📌C# Comments
 
+&nbsp;			📌C# Basic Data Types
 
+&nbsp;			📌C# Variables
+
+&nbsp;			📌Arithmetic Operators
+
+&nbsp;			📌Operator Precedence
+
+&nbsp;			📌Type Conversion
+
+&nbsp;			📌Taking User Input in Programs
+
+ 	Hands-on Practice:
+
+ 	     ->	 💻 Solved fundamental practice problems.
 
