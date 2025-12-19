@@ -2,7 +2,7 @@
 
 
 
-Day 1 : Topic: Introduction to .NET \& C# Foundation 🛠️
+Day 1 (18th December 2025) : Topic: Introduction to .NET \& C# Foundation 🛠️
 
  	Concepts Mastered:
 
@@ -16,7 +16,7 @@ Day 1 : Topic: Introduction to .NET \& C# Foundation 🛠️
 
 
 
-Day 2 : Topic: Basics of C# Language 🛠️
+Day 2 (19th December 2025) : Topic: Basics of C# Language 🛠️
 
  	Concepts Mastered:
 
