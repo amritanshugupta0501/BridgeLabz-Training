@@ -1,8 +1,8 @@
-# BridgeLabz-Training
+BridgeLabz-Training
 
 
 
-Day 1 (18th December 2025) : Topic: Introduction to .NET \& C# Foundation 🛠️
+Day 1 (18th December 2025) : Topic - Introduction to .NET \& C# Foundation 🛠️
 
  	Concepts Mastered:
 
@@ -16,29 +16,53 @@ Day 1 (18th December 2025) : Topic: Introduction to .NET \& C# Foundation 🛠�
 
 
 
-Day 2 (19th December 2025) : Topic: Basics of C# Language 🛠️
+Day 2 (19th December 2025) : Topic - Basics of C# Language 🛠️
 
  	Concepts Mastered:
 
  	     ->	 ⚙️ Understanding DataTypes and Operators used in C#
 
-&nbsp;	     ->  🧠 Understanding Foundational Concepts of : 
+ 	     ->  🧠 Understanding Foundational Concepts of :
 
-&nbsp;			📌C# Comments
+ 			📌C# Comments
 
-&nbsp;			📌C# Basic Data Types
+ 			📌C# Basic Data Types
 
-&nbsp;			📌C# Variables
+ 			📌C# Variables
 
-&nbsp;			📌Arithmetic Operators
+ 			📌Arithmetic Operators
 
-&nbsp;			📌Operator Precedence
+ 			📌Operator Precedence
 
-&nbsp;			📌Type Conversion
+ 			📌Type Conversion
 
-&nbsp;			📌Taking User Input in Programs
+ 			📌Taking User Input in Programs
 
  	Hands-on Practice:
+
+ 	     ->	 💻 Solved fundamental practice problems.
+
+
+
+Day 3 (20th December 2025) : Topic - Access Modifiers in C#🛠️
+
+&nbsp;	Concepts Mastered:
+
+&nbsp;	     -> ⚙️ Understanding different types of Access Modifiers in C#
+
+&nbsp;			📌Internal
+
+&nbsp;			📌Private
+
+&nbsp;			📌Public
+
+&nbsp;			📌Protected
+
+&nbsp;			📌Protected Internal
+
+&nbsp;			📌Private Protected
+
+&nbsp;	Hands-on Practice:
 
  	     ->	 💻 Solved fundamental practice problems.
 
