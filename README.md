@@ -46,21 +46,49 @@ Day 2 (19th December 2025) : Topic - Basics of C# Language 🛠️
 
 Day 3 (20th December 2025) : Topic - Access Modifiers in C#🛠️
 
-&nbsp;	Concepts Mastered:
+ 	Concepts Mastered:
 
-&nbsp;	     -> ⚙️ Understanding different types of Access Modifiers in C#
+ 	     -> ⚙️ Understanding different types of Access Modifiers in C#
 
-&nbsp;			📌Internal
+ 			📌Internal
 
-&nbsp;			📌Private
+ 			📌Private
 
-&nbsp;			📌Public
+ 			📌Public
 
-&nbsp;			📌Protected
+ 			📌Protected
 
-&nbsp;			📌Protected Internal
+ 			📌Protected Internal
 
-&nbsp;			📌Private Protected
+ 			📌Private Protected
+
+ 	Hands-on Practice:
+
+ 	     ->	 💻 Solved fundamental practice problems.
+
+
+
+Day 4 (22th December 2025) : Topic - Control Flow Statements in C#🛠️
+
+ 	Concepts Mastered:
+
+&nbsp;	     -> ⚙️ Understanding different types of Control Flow Statements in C#
+
+&nbsp;			 📌C# Control Flows
+
+&nbsp;			 📌C# boolean Data Type
+
+&nbsp;			 📌Boolean Expressions
+
+&nbsp;			 📌Logical Operators
+
+&nbsp;			 📌if Conditional Statement along with else if and final else statement
+
+&nbsp;			 📌C# loops - for and while
+
+&nbsp;			 📌C# break and continue statement
+
+&nbsp;			 📌C# switch Statement
 
 &nbsp;	Hands-on Practice:
 
