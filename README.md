@@ -68,27 +68,57 @@ Day 3 (20th December 2025) : Topic - Access Modifiers in C#🛠️
 
 
 
-Day 4 (22th December 2025) : Topic - Control Flow Statements in C#🛠️
+Day 4 (22nd December 2025) : Topic - Control Flow Statements in C#🛠️
 
  	Concepts Mastered:
 
-&nbsp;	     -> ⚙️ Understanding different types of Control Flow Statements in C#
+ 	     -> ⚙️ Understanding different types of Control Flow Statements in C#
 
-&nbsp;			 📌C# Control Flows
+ 			 📌C# Control Flows
 
-&nbsp;			 📌C# boolean Data Type
+ 			 📌C# boolean Data Type
 
-&nbsp;			 📌Boolean Expressions
+ 			 📌Boolean Expressions
 
-&nbsp;			 📌Logical Operators
+ 			 📌Logical Operators
 
-&nbsp;			 📌if Conditional Statement along with else if and final else statement
+ 			 📌if Conditional Statement along with else if and final else statement
 
-&nbsp;			 📌C# loops - for and while
+ 			 📌C# loops - for and while
 
-&nbsp;			 📌C# break and continue statement
+ 			 📌C# break and continue statement
 
-&nbsp;			 📌C# switch Statement
+ 			 📌C# switch Statement
+
+ 	Hands-on Practice:
+
+ 	     ->	 💻 Solved fundamental practice problems.
+
+
+
+Day 4 (23rd December 2025) : Topic - Arrays in C#🛠️
+
+&nbsp;	Concepts Mastered:
+
+&nbsp;	     -> ⚙️ Understanding various operations on Arrays in C#
+
+&nbsp;			 📌Create an Array
+
+&nbsp;			 📌Access an Array
+
+&nbsp;			 📌Accessing using for loop
+
+&nbsp;			 📌Modifying an Array
+
+&nbsp;			 📌Using length property of array
+
+&nbsp;			 📌C# Multi-demensional Array
+
+&nbsp;			 📌C# 2 Dimensional Array (Matrix)
+
+&nbsp;			 📌Accessing, finding size, etc of Multi-Dimensional Array
+
+&nbsp;			 📌Using C# Console.Error.WriteLine() Message and Environment.Exit() Method
 
 &nbsp;	Hands-on Practice:
 
