@@ -37,6 +37,10 @@ class MaximumDigits
 				secondLargest = largest;
 				largest = digits[loop];
 			}
+			else if(secondLargest < digits[loop] && digits[loop] != largest)
+			{
+				secondLargest = digits[loop];
+			}
 		}
 		Console.WriteLine("Largest digit of the number "+number+" : "+largest);
 		Console.WriteLine("Second Largest digit of the number "+number+" : "+secondLargest);
