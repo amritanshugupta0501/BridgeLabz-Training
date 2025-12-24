@@ -5,18 +5,18 @@ class MaximumDigits
 	static void Main()
 	{
 		Console.WriteLine("Give a number : ");						// Input a number from the user
-		int number = int.Parse(Console.ReadLine());
+		long number = long.Parse(Console.ReadLine());
 		int maxDigits = 10;
-		int[] digits = new int[maxDigits];
+		long[] digits = new long[maxDigits];
 		int position = 0;
-		int duplicate = number;
+		long duplicate = number;
 		while(duplicate > 0)								// Initiate a loop to extract digits from the number
 		{
 			if(position == maxDigits)						// Check if the maximum digits have increased or not
 			{
 				maxDigits += 10;
-				int[] temp = new int[maxDigits];
-				for(int loop = 0; loop < digits.Length; loop++)			// Initiate a loop to check maximum digits			
+				long[] temp = new long[maxDigits];
+				for(int loop = 0; loop < digits.Length; loop++)			// Initiate a loop to check maximum digits		
 				{
 					temp[loop] = digits[loop];
 				}
@@ -27,14 +27,15 @@ class MaximumDigits
 			position++;
 			duplicate /= 10; 
 		}
-		int largest = digits[0];
-		int secondLargest = digits[0];
-		for(int loop = 1 ; loop < position ; loop++)					// Initiate a loop to find the largest and second largest digits
+		long largest = -1;
+		long secondLargest = -1;
+		for(int loop = 0 ; loop < position ; loop++)					// Initiate a loop to find the largest and second largest digits
 		{
-			if(digits[loop] > largest)
+
+			if(largest < digits[loop])
 			{
-				largest = digits[loop];
 				secondLargest = largest;
+				largest = digits[loop];
 			}
 		}
 		Console.WriteLine("Largest digit of the number "+number+" : "+largest);
