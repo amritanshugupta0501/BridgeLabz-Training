@@ -22,7 +22,7 @@ namespace BridgeLabzTraining.methods.level3
             double y2 = double.Parse(Console.ReadLine());
 
             double distance = GetEuclideanDistance(x1, y1, x2, y2);
-            Console.WriteLine($"\nEuclidean Distance: {distance:F4}");
+            Console.WriteLine("\nEuclidean Distance: "+distance);
 
             if (x1 == x2)
             {
@@ -35,7 +35,7 @@ namespace BridgeLabzTraining.methods.level3
                 double b = lineParams[1];
 
                 char sign = (b >= 0) ? '+' : '-';
-                Console.WriteLine($"Line Equation: y = {m}x {sign} {Math.Abs(b)}");
+                Console.WriteLine("Line Equation: y = "+m+"x "+sign+" "+Math.Abs(b));
             }
         }
 

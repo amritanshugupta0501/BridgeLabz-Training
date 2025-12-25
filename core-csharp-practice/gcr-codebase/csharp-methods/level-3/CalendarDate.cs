@@ -20,7 +20,7 @@ namespace BridgeLabzTraining.methods.level3
             int daysInMonth = GetDaysInMonth(month, year);
             int startDay = GetStartDay(month, year);
 
-            Console.WriteLine($"\n   {monthName} {year}");
+            Console.WriteLine("\n   "+monthName+" "+year);
             Console.WriteLine("Sun Mon Tue Wed Thu Fri Sat");
 
             for (int i = 0; i < startDay; i++)
@@ -30,7 +30,7 @@ namespace BridgeLabzTraining.methods.level3
 
             for (int day = 1; day <= daysInMonth; day++)
             {
-                Console.Write(day);
+		Console.Write("{0,3} ", day);
 
                 if ((day + startDay) % 7 == 0)
                 {
