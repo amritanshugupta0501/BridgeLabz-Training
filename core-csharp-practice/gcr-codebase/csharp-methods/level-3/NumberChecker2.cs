@@ -15,14 +15,14 @@ namespace BridgeLabzTraining.methods.level3
 
             int count = GetDigitCount(number);
             int[] digits = GetDigitsArray(number);
-            Console.WriteLine($"Count of digits: {count}");
+            Console.WriteLine("Count of digits: "+count);
             Console.WriteLine("Digits: " + string.Join(", ", digits));
 
             int sum = GetSumOfDigits(digits);
-            Console.WriteLine($"Sum of digits: {sum}");
+            Console.WriteLine("Sum of digits: "+sum);
 
             double sumSquares = GetSumOfSquares(digits);
-            Console.WriteLine($"Sum of squares: {sumSquares}");
+            Console.WriteLine("Sum of squares: "+sumSquares);
 
             bool isHarshad = IsHarshadNumber(number, digits);
             if (isHarshad)
@@ -39,11 +39,9 @@ namespace BridgeLabzTraining.methods.level3
             {
                 if (frequencies[i, 1] > 0)
                 {
-                    Console.WriteLine($"{frequencies[i, 0]}\t{frequencies[i, 1]}");
+                    Console.WriteLine(frequencies[i, 0]+"\t"+frequencies[i, 1]);
                 }
             }
-
-            Console.ReadLine();
         }
 
         static int GetDigitCount(int number)

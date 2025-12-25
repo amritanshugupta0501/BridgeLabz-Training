@@ -79,7 +79,7 @@ namespace BridgeLabzTraining.methods.level3
             int count = GetDigitCount(number);
             int[] digits = GetDigitsArray(number);
 
-            Console.WriteLine($"Count of digits: {count}");
+            Console.WriteLine("Count of digits: "+count);
             Console.WriteLine("Original Digits: " + string.Join(", ", digits));
 
             int[] reversedDigits = ReverseArray(digits);

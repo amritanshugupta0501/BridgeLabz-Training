@@ -129,28 +129,28 @@ namespace BridgeLabzTraining.methods.level3
             Console.WriteLine("Factors: " + string.Join(", ", factors));
 
             int greatest = NumberChecker5.GetGreatestFactor(factors);
-            Console.WriteLine($"Greatest Factor: {greatest}");
+            Console.WriteLine("Greatest Factor: "+greatest);
 
             int sum = NumberChecker5.GetSumOfFactors(factors);
-            Console.WriteLine($"Sum of Factors: {sum}");
+            Console.WriteLine("Sum of Factors: "+sum);
 
             long product = NumberChecker5.GetProductOfFactors(factors);
-            Console.WriteLine($"Product of Factors: {product}");
+            Console.WriteLine("Product of Factors: "+product);
 
             double cubeProduct = NumberChecker5.GetProductOfCubeOfFactors(factors);
-            Console.WriteLine($"Product of Cube of Factors: {cubeProduct}");
+            Console.WriteLine("Product of Cube of Factors: "+cubeProduct);
 
             bool isPerfect = NumberChecker5.IsPerfectNumber(number, factors);
-            Console.WriteLine($"Is Perfect Number: {isPerfect}");
+            Console.WriteLine("Is Perfect Number: "+isPerfect);
 
             bool isAbundant = NumberChecker5.IsAbundantNumber(number, factors);
-            Console.WriteLine($"Is Abundant Number: {isAbundant}");
+            Console.WriteLine("Is Abundant Number: "+isAbundant);
 
             bool isDeficient = NumberChecker5.IsDeficientNumber(number, factors);
-            Console.WriteLine($"Is Deficient Number: {isDeficient}");
+            Console.WriteLine("Is Deficient Number: "+isDeficient);
 
             bool isStrong = NumberChecker5.IsStrongNumber(number);
-            Console.WriteLine($"Is Strong Number: {isStrong}");
+            Console.WriteLine("Is Strong Number: "+isStrong);
         }
     }
 }

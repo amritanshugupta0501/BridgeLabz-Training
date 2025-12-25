@@ -30,7 +30,7 @@ namespace BridgeLabzTraining.methods.level3
 
             for (int day = 1; day <= daysInMonth; day++)
             {
-                Console.Write($"{day,3} ");
+                Console.Write(day);
 
                 if ((day + startDay) % 7 == 0)
                 {

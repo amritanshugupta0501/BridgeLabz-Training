@@ -17,7 +17,7 @@ namespace BridgeLabzTraining.methods.level3
             for (int i = 0; i < otpArray.Length; i++)
             {
                 otpArray[i] = OTPGeneration();
-                Console.WriteLine($"OTP {i + 1}: {otpArray[i]}");
+                Console.WriteLine("OTP "+(i + 1)+" : "+otpArray[i]);
             }
 
             bool isUnique = CheckUnique(otpArray);

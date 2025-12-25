@@ -63,19 +63,19 @@ namespace BridgeLabzTraining.methods.level3
             int number = int.Parse(Console.ReadLine());
 
             bool isPrime = NumberChecker4.IsPrime(number);
-            Console.WriteLine($"Is Prime Number: {isPrime}");
+            Console.WriteLine("Is Prime Number: "+isPrime);
 
             bool isNeon = NumberChecker4.IsNeon(number);
-            Console.WriteLine($"Is Neon Number: {isNeon}");
+            Console.WriteLine("Is Neon Number: "+isNeon);
 
             bool isSpy = NumberChecker4.IsSpy(number);
-            Console.WriteLine($"Is Spy Number: {isSpy}");
+            Console.WriteLine("Is Spy Number: "+isSpy);
 
             bool isAutomorphic = NumberChecker4.IsAutomorphic(number);
-            Console.WriteLine($"Is Automorphic Number: {isAutomorphic}");
+            Console.WriteLine("Is Automorphic Number: "+isAutomorphic);
 
             bool isBuzz = NumberChecker4.IsBuzz(number);
-            Console.WriteLine($"Is Buzz Number: {isBuzz}");
+            Console.WriteLine("Is Buzz Number: "+isBuzz);
 
             Console.ReadLine();
         }
