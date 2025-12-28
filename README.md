@@ -2,7 +2,9 @@ BridgeLabz-Training
 
 
 
-Day 1 (18th December 2025) : Topic - Introduction to .NET \& C# Foundation 🛠️
+Day 1 (18th December 2025) : 
+
+&nbsp;	Topic - Introduction to .NET \& C# Foundation 🛠️
 
  	Concepts Mastered:
 
@@ -16,7 +18,9 @@ Day 1 (18th December 2025) : Topic - Introduction to .NET \& C# Foundation 🛠�
 
 
 
-Day 2 (19th December 2025) : Topic - Basics of C# Language 🛠️
+Day 2 (19th December 2025) : 
+
+&nbsp;	Topic - Basics of C# Language 🛠️
 
  	Concepts Mastered:
 
@@ -44,7 +48,9 @@ Day 2 (19th December 2025) : Topic - Basics of C# Language 🛠️
 
 
 
-Day 3 (20th December 2025) : Topic - Access Modifiers in C#🛠️
+Day 3 (20th December 2025) : 
+
+&nbsp;	Topic - Access Modifiers in C#🛠️
 
  	Concepts Mastered:
 
@@ -68,7 +74,9 @@ Day 3 (20th December 2025) : Topic - Access Modifiers in C#🛠️
 
 
 
-Day 4 (22nd December 2025) : Topic - Control Flow Statements in C#🛠️
+Day 4 (22nd December 2025) : 
+
+&nbsp;	Topic - Control Flow Statements in C#🛠️
 
  	Concepts Mastered:
 
@@ -96,31 +104,115 @@ Day 4 (22nd December 2025) : Topic - Control Flow Statements in C#🛠️
 
 
 
-Day 5 (23rd December 2025) : Topic - Arrays in C#🛠️
+Day 5 (23rd December 2025) : 
 
-&nbsp;	Concepts Mastered:
+&nbsp;	Topic - Arrays in C#🛠️
 
-&nbsp;	     -> ⚙️ Understanding various operations on Arrays in C#
+ 	Concepts Mastered:
 
-&nbsp;			 📌Create an Array
+ 	     -> ⚙️ Understanding various operations on Arrays in C#
 
-&nbsp;			 📌Access an Array
+ 			 📌Create an Array
 
-&nbsp;			 📌Accessing using for loop
+ 			 📌Access an Array
 
-&nbsp;			 📌Modifying an Array
+ 			 📌Accessing using for loop
 
-&nbsp;			 📌Using length property of array
+ 			 📌Modifying an Array
 
-&nbsp;			 📌C# Multi-demensional Array
+ 			 📌Using length property of array
 
-&nbsp;			 📌C# 2 Dimensional Array (Matrix)
+ 			 📌C# Multi-demensional Array
 
-&nbsp;			 📌Accessing, finding size, etc of Multi-Dimensional Array
+ 			 📌C# 2 Dimensional Array (Matrix)
 
-&nbsp;			 📌Using C# Console.Error.WriteLine() Message and Environment.Exit() Method
+ 			 📌Accessing, finding size, etc of Multi-Dimensional Array
+
+ 			 📌Using C# Console.Error.WriteLine() Message and Environment.Exit() Method
+
+ 	Hands-on Practice:
+
+ 	     ->	 💻 Solved fundamental practice problems.
+
+
+
+Day 6 (24th December 2025) : 
+
+&nbsp;	Topic - Methods in C#🛠️
+
+ 	Concepts Mastered:
+
+ 	     -> ⚙️ Understanding various operations using Methods in C#
+
+ 			 📌User-Defined Methods
+
+ 			 📌Using Methods Multiple Times
+
+ 			 📌Making Methods More Dynamic
+
+ 			 📌Recursive Methods
+
+ 			 📌Static Methods in C#
+
+ 			 📌.NET Standard Library Methods
+
+ 			 📌System.Math Class in C#
+
+  	Hands-on Practice:
+
+ 	     ->	 💻 Solved fundamental practice problems.
+
+
+
+Day 7 (26th December 2025) : 
+
+&nbsp;	Topic - Strings in C#🛠️
+
+ 	Concepts Mastered:
+
+ 	     -> ⚙️ Understanding various operations on Strings in C#
+
+ 			 📌C# Strings
+
+&nbsp;			 📌Create Strings
+
+&nbsp;			 📌Use of "\\\\" Escape Sequence
+
+&nbsp;			 📌Take String Input
+
+&nbsp;			 📌String Arrays
+
+&nbsp;			 📌String as Method Parameters
+
+&nbsp;			 📌String Class Built-In Methods
+
+&nbsp;			 📌ASCII Character Codes
+
+&nbsp;			 📌C# Exceptions
+
+&nbsp;			 📌C# Exception Hierarchy
+
+&nbsp;			 📌C# Exception Types
+
+&nbsp;			 📌System.Exception or Unchecked Exceptions
+
+&nbsp;			 📌Checked Exceptions
+
+&nbsp;	Topic - Strings in C#🛠️
+
+ 	Concepts Mastered:
+
+ 	     -> ⚙️ Understanding various operations on Strings in C#
+
+ 			 📌Common built-in Functions - Random, Math
+
+ 			 📌Built-in Functions - Date and time  	
 
 &nbsp;	Hands-on Practice:
 
  	     ->	 💻 Solved fundamental practice problems.
+
+
+
+
 
