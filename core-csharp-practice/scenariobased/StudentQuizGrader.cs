@@ -34,7 +34,7 @@ namespace BridgeLabzTraining.scenariobased
                 return;
             }
             int numberOfCorrectAnswers = GetStudentScore(correctAnswers, studentAnswers);
-            double percentage = numberOfCorrectAnswers / questions;
+            double percentage = (numberOfCorrectAnswers / questions)*100;
             DisplayResult(percentage);
         }
         void DisplayResult(double percentage)
