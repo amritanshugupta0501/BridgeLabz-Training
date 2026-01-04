@@ -1,218 +1,196 @@
-BridgeLabz-Training
 
+🚀 BridgeLabz – Core C# Training
+Core C# | Day-wise Progress 
 
+🗓️ Day 1: .NET & C# Fundamentals
+🔹 Concepts Covered
 
-Day 1 (18th December 2025) : 
+Architecture: Deep dive into the .NET Framework and execution process (CLR).
 
-&nbsp;	Topic - Introduction to .NET \& C# Foundation 🛠️
+Anatomy: Understanding C# program structure, syntax rules, and the Main() entry point.
 
- 	Concepts Mastered:
+🔧 Hands-on Practice
 
- 	     ->  🧠 Deep dive into the .NET Ecosystem and its architecture.
+[x] Solved simple logical programs.
 
- 	     ->	 ⚙️ Understanding the C# language syntax and structure.
+[x] Mastered console Input/Output (I/O).
 
- 	Hands-on Practice:
+🗓️ Day 2: Core C# Language Basics
+🔹 Concepts Covered
 
- 	     ->	 💻 Solved foundational logic problems.
+Data Types: Primitive types and practical usage.
 
+Operators:
 
+Arithmetic | Relational | Logical
 
-Day 2 (19th December 2025) : 
+Assignment | Unary
 
-&nbsp;	Topic - Basics of C# Language 🛠️
+🔧 Hands-on Practice
 
- 	Concepts Mastered:
+[x] Implemented programs demonstrating data type constraints.
 
- 	     ->	 ⚙️ Understanding DataTypes and Operators used in C#
+[x] Practiced complex expressions to understand operator precedence.
 
- 	     ->  🧠 Understanding Foundational Concepts of :
+🗓️ Day 3: C# Operators, Access Modifiers & Practical Programming
+🔹 Concepts Covered
 
- 			📌C# Comments
+Math Logic: Addition, subtraction, multiplication, division, and modulus.
 
- 			📌C# Basic Data Types
+Type Safety: Type conversion and casting (Implicit vs Explicit).
 
- 			📌C# Variables
+Access Modifiers: public private protected internal protected internal private protected
 
- 			📌Arithmetic Operators
+🔧 Hands-on Practice
 
- 			📌Operator Precedence
+[x] Built console apps for calculations and unit conversions.
 
- 			📌Type Conversion
+[x] Demonstrated visibility scope using access modifiers.
 
- 			📌Taking User Input in Programs
+[x] Logic Challenge: Swapping values without temporary variables.
 
- 	Hands-on Practice:
+🗓️ Day 4: Control Flow Statements & Iterative Programming
+🔹 Concepts Covered
 
- 	     ->	 💻 Solved fundamental practice problems.
+Decision Making: if, if-else, else-if ladder, and switch cases.
 
+Looping: for, while, and do-while constructs.
 
+Flow Control: Utilizing break and continue.
 
-Day 3 (20th December 2025) : 
+🔧 Hands-on Practice
 
-&nbsp;	Topic - Access Modifiers in C#🛠️
+[x] Solved conditional logic problems.
 
- 	Concepts Mastered:
+[x] Loop Logic: Counting, summation, and pattern generation.
 
- 	     -> ⚙️ Understanding different types of Access Modifiers in C#
+[x] Created Menu-driven console applications.
 
- 			📌Internal
+🗓️ Day 5: Arrays & Structured Data Handling
+🔹 Concepts Covered
 
- 			📌Private
+Storage: Declaration, initialization, and traversal of single-dimensional arrays.
 
- 			📌Public
+Algorithms: Linear searching, summation, and Min/Max extraction.
 
- 			📌Protected
+🔧 Hands-on Practice
 
- 			📌Protected Internal
+[x] Programs to store and process multiple data points.
 
- 			📌Private Protected
+[x] Real-world Scenarios: Employee salary calculations and data analysis.
 
- 	Hands-on Practice:
+🗓️ Day 6: Methods & Modular Programming
+🔹 Concepts Covered
 
- 	     ->	 💻 Solved fundamental practice problems.
+Modularity: Method declaration, definition, and execution flow.
 
+Types: Parameterized methods, Return values, and void types.
 
+Scope: Understanding Local vs. Instance variables.
 
-Day 4 (22nd December 2025) : 
+🔧 Hands-on Practice
 
-&nbsp;	Topic - Control Flow Statements in C#🛠️
+[x] Refactored monolithic code into method-oriented designs.
 
- 	Concepts Mastered:
+[x] Separated Business Logic from User Interaction.
 
- 	     -> ⚙️ Understanding different types of Control Flow Statements in C#
+[x] Input handling and Output display separation.
 
- 			 📌C# Control Flows
+🧩 Methods Focus
 
- 			 📌C# boolean Data Type
+Calling a single execution method from Main().
 
- 			 📌Boolean Expressions
+Using private methods for internal logic and public methods for entry.
 
- 			 📌Logical Operators
+Writing clean, reusable, and testable code blocks.
 
- 			 📌if Conditional Statement along with else if and final else statement
+🗓️ Day 7: Strings & String Manipulation
+🔹 Concepts Covered
 
- 			 📌C# loops - for and while
+Memory: String immutability and string vs StringBuilder.
 
- 			 📌C# break and continue statement
+Operations: Indexing, traversal, length calculation, and case conversion.
 
- 			 📌C# switch Statement
+Sanitization: Trimming and removing extra spaces.
 
- 	Hands-on Practice:
+🔧 Hands-on Practice
 
- 	     ->	 💻 Solved fundamental practice problems.
+[x] Analytics: Count characters/words and reverse strings.
 
+[x] Formatting: Capitalize words and format sentences.
 
+[x] Scenarios: Sentence formatter and Text cleaner tools.
 
-Day 5 (23rd December 2025) : 
+🧩 Methods Focus
 
-&nbsp;	Topic - Arrays in C#🛠️
+Passing strings as parameters and returning processed results.
 
- 	Concepts Mastered:
+Writing independent string-processing utilities.
 
- 	     -> ⚙️ Understanding various operations on Arrays in C#
+Avoiding direct logic inside Main().
 
- 			 📌Create an Array
+🗓️ Day 8: Classes & Objects (OOP Basics)
+🔹 Concepts Covered
 
- 			 📌Access an Array
+OOP Fundamentals: Transitioning from procedural to Object-Oriented design.
 
- 			 📌Accessing using for loop
+Structure: Classes (Blueprints) vs Objects (Instances).
 
- 			 📌Modifying an Array
+Encapsulation: Managing Fields and Methods.
 
- 			 📌Using length property of array
+🔧 Hands-on Practice
 
- 			 📌C# Multi-demensional Array
+[x] Modeled real-world entities using classes.
 
- 			 📌C# 2 Dimensional Array (Matrix)
+[x] System Design: Bank system with role-based object interaction.
 
- 			 📌Accessing, finding size, etc of Multi-Dimensional Array
+🗓️ Day 9: Constructors, Instance vs Class Variables & Access Modifiers
+🔹 Concepts Covered
 
- 			 📌Using C# Console.Error.WriteLine() Message and Environment.Exit() Method
+Initialization: Default and Parameterized Constructors.
 
- 	Hands-on Practice:
+State: Instance variables vs. Static variables.
 
- 	     ->	 💻 Solved fundamental practice problems.
+Visibility: Real-world application of access modifiers.
 
+🔧 Hands-on Practice
 
+[x] Constructor-based object initialization.
 
-Day 6 (24th December 2025) : 
+[x] Project: Library Management System (Book search, Checkout, Availability).
 
-&nbsp;	Topic - Methods in C#🛠️
+🗓️ Day 10: Keywords – this, static, sealed & is Operator
+🔹 Concepts Covered
 
- 	Concepts Mastered:
+this: Referencing the current instance.
 
- 	     -> ⚙️ Understanding various operations using Methods in C#
+static: Shared members and utility methods.
 
- 			 📌User-Defined Methods
+sealed: Restricting inheritance.
 
- 			 📌Using Methods Multiple Times
+is: Type checking and casting.
 
- 			 📌Making Methods More Dynamic
+🔧 Hands-on Practice
 
- 			 📌Recursive Methods
+[x] Created utility classes with static methods.
 
- 			 📌Static Methods in C#
+[x] Implemented safe type-checking flows.
 
- 			 📌.NET Standard Library Methods
+[x] Designed controlled inheritance scenarios.
 
- 			 📌System.Math Class in C#
+🗓️ Day 11: Inheritance & Code Reusability
+🔹 Concepts Covered
 
-  	Hands-on Practice:
+Hierarchy: Base and Derived classes.
 
- 	     ->	 💻 Solved fundamental practice problems.
+DRY Principle: Code reusability through inheritance.
 
+Polymorphism: Introduction to Method Overriding.
 
+🔧 Hands-on Practice
 
-Day 7 (26th December 2025) : 
+[x] Built inheritance-based programs.
 
-&nbsp;	Topic - Strings in C#🛠️
+[x] Modeled real-world hierarchies.
 
- 	Concepts Mastered:
-
- 	     -> ⚙️ Understanding various operations on Strings in C#
-
- 			 📌C# Strings
-
-&nbsp;			 📌Create Strings
-
-&nbsp;			 📌Use of "\\\\" Escape Sequence
-
-&nbsp;			 📌Take String Input
-
-&nbsp;			 📌String Arrays
-
-&nbsp;			 📌String as Method Parameters
-
-&nbsp;			 📌String Class Built-In Methods
-
-&nbsp;			 📌ASCII Character Codes
-
-&nbsp;			 📌C# Exceptions
-
-&nbsp;			 📌C# Exception Hierarchy
-
-&nbsp;			 📌C# Exception Types
-
-&nbsp;			 📌System.Exception or Unchecked Exceptions
-
-&nbsp;			 📌Checked Exceptions
-
-&nbsp;	Topic - Strings in C#🛠️
-
- 	Concepts Mastered:
-
- 	     -> ⚙️ Understanding various operations on Strings in C#
-
- 			 📌Common built-in Functions - Random, Math
-
- 			 📌Built-in Functions - Date and time  	
-
-&nbsp;	Hands-on Practice:
-
- 	     ->	 💻 Solved fundamental practice problems.
-
-
-
-
-
+[x] Assignment: Submission of Inheritance architecture.
