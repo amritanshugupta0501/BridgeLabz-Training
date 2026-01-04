@@ -1,0 +1,17 @@
+Student              GradeCalculator               Subject
+   |                        |                         |
+   |                        |                         |
+   |---Request Grade------->|                         |
+   |                        |                         |
+   |                        |-------getMarks()------->|
+   |                        |<------Return 90---------|
+   |                        |                         |
+   |        (Loop)          |-------getMarks()------->|
+   |                        |<------Return 85---------|
+   |                        |                         |
+   |                        |                         |
+   |                        |--Compute Average()      |
+   |                        |                         |
+   |<--Return Final Grade---|                         |
+   |                        |                         |
+   |                        |                         |

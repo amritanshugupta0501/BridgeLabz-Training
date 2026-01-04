@@ -1,0 +1,17 @@
+Customer            BillGenerator               Product
+   |                        |                         |
+   |---Request Checkout---->|                         |
+   |                        |                         |
+   |        (Loop)          |-----getDetails()------->|
+   |                        |<----Return ($3, 2kg)----|
+   |                        |--Add to Subtotal ($6)-- |
+   |                        |                         |
+   |                        |-----getDetails()------->|
+   |                        |<----Return ($2, 1L)-----|
+   |                        |--Add to Subtotal ($2)-- |
+   |                        |                         |
+   |                        |--Calculate Total ($8)   |
+   |                        |                         |
+   |<--Print Total Bill-----|                         |
+   |                        |                         |
+   |                        |                         |
