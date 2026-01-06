@@ -15,13 +15,13 @@ namespace BridgeLabzTraining.customer_service_call_log
             Logs = new CallLogs[initialCapacity];
             LogCount = 0;
         }
-        public void AddCallLog(string phone, string message)
+        public void AddCallLog(string name ,string phone, string message)
         {
             if(LogCount == Logs.Length)
             {
                 ResizeArray();
             }
-            Logs[LogCount] = new CallLogs(phone, message, DateTime.Now);
+            Logs[LogCount] = new CallLogs(name, phone, message, DateTime.Now);
             LogCount++;
         }
         public void ResizeArray()

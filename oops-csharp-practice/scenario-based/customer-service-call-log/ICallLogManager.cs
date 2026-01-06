@@ -8,7 +8,7 @@ namespace BridgeLabzTraining.customer_service_call_log
 {
     internal interface ICallLogManager
     {
-        void AddCallLog(string phone, string message);
+        void AddCallLog(string name, string phone, string message);
         void ResizeArray();
         CallLogs[] SearchByKeyword(string keyword);
         CallLogs[] FilterByTime(DateTime start, DateTime end);

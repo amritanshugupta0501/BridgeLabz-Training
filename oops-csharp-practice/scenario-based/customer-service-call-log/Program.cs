@@ -19,7 +19,7 @@ namespace BridgeLabzTraining.customer_service_call_log
                 Console.WriteLine("1. Add New Call Log");
                 Console.WriteLine("2. Search Logs by Keyword");
                 Console.WriteLine("3. Filter Logs by Time");
-                Console.WriteLine("4. Display All Logs (Optional debug)");
+                Console.WriteLine("4. Display All Logs");
                 Console.WriteLine("5. Exit");
                 Console.Write("Select an option (1-5): ");
 
@@ -28,13 +28,16 @@ namespace BridgeLabzTraining.customer_service_call_log
                 switch (choice)
                 {
                     case "1":
+                        Console.WriteLine("\nEnter Customer Name: ");
+                        string name = Console.ReadLine();
+
                         Console.Write("\nEnter Customer Phone Number: ");
                         string phone = Console.ReadLine();
 
                         Console.Write("Enter Issue Description: ");
                         string issue = Console.ReadLine();
 
-                        manager.AddCallLog(phone, issue);
+                        manager.AddCallLog(name, phone, issue);
                         Console.WriteLine("Success: Call log added.");
                         break;
 
