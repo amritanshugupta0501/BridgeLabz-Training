@@ -65,7 +65,7 @@ namespace BridgeLabzTraining.EmployeeWage
                 Console.Write("Employee Working hours per day : ");
                 employee.EmployeeWorkingHour1 = double.Parse(Console.ReadLine());
                 CalculateWageForAMonth(employee);
-                CalculateDailyWage(EmployeeDetail);
+                CalculateDailyWage(EmployeeDetail);              
             }
             else
             {
@@ -85,8 +85,26 @@ namespace BridgeLabzTraining.EmployeeWage
                 if (attendance == 1)
                 {
                     employee.EmployeeNumberOfDays1++;
+                    if(CheckWorkingHoursOrDays(employee))
+                    {
+                        employee.EmployeeNumberOfDays1 -= 1;
+                        return;
+                    }
                 }
             }
+        }
+        // UC-6 Code Snippet to check Working hours or days in the month 
+        public bool CheckWorkingHoursOrDays(IEmployeeDetails employee)
+        {
+            if(employee.EmployeeNumberOfDays1 >= 20)
+            {
+                return true;
+            }
+            else if((employee.EmployeeNumberOfDays1 * employee.EmployeeWorkingHour1) > 100)
+            {
+                return true;
+            }
+            return false;
         }
     }
 }

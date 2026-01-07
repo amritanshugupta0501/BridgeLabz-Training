@@ -15,5 +15,6 @@ namespace BridgeLabzTraining.EmployeeWage
         void CheckAttendance(IEmployeeDetails employee);
         void CheckEmployeeType(IEmployeeDetails employee);
         void CalculateWageForAMonth(IEmployeeDetails employee);
+        bool CheckWorkingHoursOrDays(IEmployeeDetails employee);
     }
 }

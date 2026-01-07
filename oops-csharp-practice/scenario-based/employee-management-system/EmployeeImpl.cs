@@ -29,6 +29,10 @@ namespace BridgeLabzTraining.EmployeeWage
 
         public override string? ToString()
         {
+            if (EmployeeType1.Equals("Part Time Employee"))
+            {
+                return $"Employee Name : {EmployeeName1}\nEmployee ID : {EmployeeId1}\nEmployee Salary : {EmployeeSalary1}\nEmployee Email Address : {EmployeeEmailAddress1}\nEmployee Contact Number : {EmployeeMobileNumber1}\nEmployee Type : {EmployeeType1}\nEmployee Working Days : {EmployeeNumberOfDays1}\nEmployee Total Working Hours : {EmployeeNumberOfDays1 * EmployeeWorkingHour1}";
+            }
             return $"Employee Name : {EmployeeName1}\nEmployee ID : {EmployeeId1}\nEmployee Salary : {EmployeeSalary1}\nEmployee Email Address : {EmployeeEmailAddress1}\nEmployee Contact Number : {EmployeeMobileNumber1}\nEmployee Type : {EmployeeType1}";
         }
     }
