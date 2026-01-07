@@ -1,12 +1,13 @@
-﻿using System;
+﻿using BridgeLabzTraining.polymorphismabstraction.EmployeeManagementSystem;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BridgeLabzTraining.employee-management-system
+namespace BridgeLabzTraining.EmployeeWage
 {
-    // Interface designed for employee details
+    // Interface designed to for employee details
     internal interface IEmployeeDetails
     {
          string EmployeeName1 { get ; set ; }
@@ -14,6 +15,7 @@ namespace BridgeLabzTraining.employee-management-system
          double EmployeeSalary1 { get ; set ; }
          string EmployeeEmailAddress1 { get ; set ; }
          string EmployeeMobileNumber1 { get ; set ; }
+        double EmployeeWorkingHour1 { get; set ; }
 
         string? ToString();
     }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BridgeLabzTraining.employee-management-system
+namespace BridgeLabzTraining.EmployeeWage
 {
     // Blueprint of details of an employee
     internal class EmployeeImpl : IEmployeeDetails
@@ -14,12 +14,14 @@ namespace BridgeLabzTraining.employee-management-system
         private double EmployeeSalary;
         private string EmployeeEmailAddress;
         private string EmployeeMobileNumber;
+        private double EmployeeWorkingHour;
 
         public string EmployeeName1 { get => EmployeeName; set => EmployeeName = value; }
         public int EmployeeId1 { get => EmployeeId; set => EmployeeId = value; }
-        public double EmployeeSalary1 { get => EmployeeSalary; set => EmployeeSalary = value; }
         public string EmployeeEmailAddress1 { get => EmployeeEmailAddress; set => EmployeeEmailAddress = value; }
         public string EmployeeMobileNumber1 { get => EmployeeMobileNumber; set => EmployeeMobileNumber = value; }
+        public double EmployeeWorkingHour1 { get => EmployeeWorkingHour; set => EmployeeWorkingHour = value; }
+        public double EmployeeSalary1 { get => EmployeeSalary; set => EmployeeSalary = value; }
 
         public override string? ToString()
         {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BridgeLabzTraining.employee-management-system
+namespace BridgeLabzTraining.EmployeeWage
 {
     // Interface designed to prevent any data leak
     internal interface IEmployee

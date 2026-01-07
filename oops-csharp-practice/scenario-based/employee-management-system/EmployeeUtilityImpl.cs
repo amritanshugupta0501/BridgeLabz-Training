@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BridgeLabzTraining.employee-management-system
+namespace BridgeLabzTraining.EmployeeWage
 {
     internal class EmployeeUtilityImpl : IEmployee
     {
@@ -18,12 +18,13 @@ namespace BridgeLabzTraining.employee-management-system
             EmployeeDetail.EmployeeName1 = Console.ReadLine();
             Console.Write("Employee Id : ");
             EmployeeDetail.EmployeeId1 = int.Parse(Console.ReadLine());
-            Console.Write("Employee Salary : ");
-            EmployeeDetail.EmployeeSalary1 = double.Parse(Console.ReadLine());
+            Console.Write("Employee Working Hours : ");
+            EmployeeDetail.EmployeeWorkingHour1 = double.Parse(Console.ReadLine());
             Console.Write("Employee Email Address : ");
             EmployeeDetail.EmployeeEmailAddress1 = Console.ReadLine();
             Console.Write("Employee Contact Number : ");
             EmployeeDetail.EmployeeMobileNumber1 = Console.ReadLine();
+            CalculateDailyWage(EmployeeDetail);
             return EmployeeDetail;
         }
         // Code Snippet to display employee details
@@ -49,6 +50,11 @@ namespace BridgeLabzTraining.employee-management-system
             {
                 Console.WriteLine($"{employee.EmployeeName1} is absent.");
             }
+        }
+        // UC-2 Code Snippet to calculate daily wage of the employee
+        public void CalculateDailyWage(IEmployeeDetails employee)
+        {
+            employee.EmployeeSalary1 = employee.EmployeeWorkingHour1 * 200;
         }
     }
 }
