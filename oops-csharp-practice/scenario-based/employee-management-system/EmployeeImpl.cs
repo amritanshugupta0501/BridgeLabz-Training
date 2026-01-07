@@ -16,6 +16,7 @@ namespace BridgeLabzTraining.EmployeeWage
         private string EmployeeMobileNumber;
         private double EmployeeWorkingHour;
         private string EmployeeType;
+        private int EmployeeNumberOfDays;
 
         public string EmployeeName1 { get => EmployeeName; set => EmployeeName = value; }
         public int EmployeeId1 { get => EmployeeId; set => EmployeeId = value; }
@@ -24,6 +25,7 @@ namespace BridgeLabzTraining.EmployeeWage
         public double EmployeeWorkingHour1 { get => EmployeeWorkingHour; set => EmployeeWorkingHour = value; }
         public double EmployeeSalary1 { get => EmployeeSalary; set => EmployeeSalary = value; }
         public string EmployeeType1 { get => EmployeeType; set => EmployeeType = value; }
+        public int EmployeeNumberOfDays1 { get => EmployeeNumberOfDays; set => EmployeeNumberOfDays = value; }
 
         public override string? ToString()
         {

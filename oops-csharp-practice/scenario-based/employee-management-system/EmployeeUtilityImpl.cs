@@ -52,7 +52,7 @@ namespace BridgeLabzTraining.EmployeeWage
         // UC-2 Code Snippet to calculate daily wage of the employee
         public void CalculateDailyWage(IEmployeeDetails employee)
         {
-            employee.EmployeeSalary1 = employee.EmployeeWorkingHour1 * 200;
+            employee.EmployeeSalary1 = employee.EmployeeWorkingHour1 * employee.EmployeeNumberOfDays1 * 200;
         }
         // UC-3 Code Snippet to check and calculate the wage of a part time employee
         public void CheckEmployeeType(IEmployeeDetails employee)
@@ -61,9 +61,10 @@ namespace BridgeLabzTraining.EmployeeWage
             int choice = int.Parse(Console.ReadLine());
             if(choice == 2)
             {
-                Console.Write("Employee Working Hours : ");
                 employee.EmployeeType1 = "Part Time Employee";
+                Console.Write("Employee Working hours per day : ");
                 employee.EmployeeWorkingHour1 = double.Parse(Console.ReadLine());
+                CalculateWageForAMonth(employee);
                 CalculateDailyWage(EmployeeDetail);
             }
             else
@@ -71,6 +72,20 @@ namespace BridgeLabzTraining.EmployeeWage
                 employee.EmployeeType1 = "Full Time Employee";
                 Console.WriteLine("Employee Salary : ");
                 employee.EmployeeSalary1 = double.Parse(Console.ReadLine());
+            }
+        }
+        // UC-5 Code Snippet to Calculate attendance for the whole month
+        public void CalculateWageForAMonth(IEmployeeDetails employee)
+        {
+            employee.EmployeeNumberOfDays1 = 0;
+            Random attendanceCheck = new Random();
+            for (int loop = 1; loop <= 30; loop++)
+            {               
+                int attendance = attendanceCheck.Next(0, 2);
+                if (attendance == 1)
+                {
+                    employee.EmployeeNumberOfDays1++;
+                }
             }
         }
     }
