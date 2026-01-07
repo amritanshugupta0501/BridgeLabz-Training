@@ -15,7 +15,8 @@ namespace BridgeLabzTraining.EmployeeWage
          double EmployeeSalary1 { get ; set ; }
          string EmployeeEmailAddress1 { get ; set ; }
          string EmployeeMobileNumber1 { get ; set ; }
-        double EmployeeWorkingHour1 { get; set ; }
+         double EmployeeWorkingHour1 { get; set ; }
+         string EmployeeType1 { get ; set ; }
 
         string? ToString();
     }

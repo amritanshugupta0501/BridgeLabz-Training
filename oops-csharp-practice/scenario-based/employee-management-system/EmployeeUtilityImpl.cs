@@ -18,13 +18,11 @@ namespace BridgeLabzTraining.EmployeeWage
             EmployeeDetail.EmployeeName1 = Console.ReadLine();
             Console.Write("Employee Id : ");
             EmployeeDetail.EmployeeId1 = int.Parse(Console.ReadLine());
-            Console.Write("Employee Working Hours : ");
-            EmployeeDetail.EmployeeWorkingHour1 = double.Parse(Console.ReadLine());
             Console.Write("Employee Email Address : ");
             EmployeeDetail.EmployeeEmailAddress1 = Console.ReadLine();
             Console.Write("Employee Contact Number : ");
             EmployeeDetail.EmployeeMobileNumber1 = Console.ReadLine();
-            CalculateDailyWage(EmployeeDetail);
+            CheckEmployeeType(EmployeeDetail);
             return EmployeeDetail;
         }
         // Code Snippet to display employee details
@@ -55,6 +53,25 @@ namespace BridgeLabzTraining.EmployeeWage
         public void CalculateDailyWage(IEmployeeDetails employee)
         {
             employee.EmployeeSalary1 = employee.EmployeeWorkingHour1 * 200;
+        }
+        // UC-3 Code Snippet to check and calculate the wage of a part time employee
+        public void CheckEmployeeType(IEmployeeDetails employee)
+        {
+            Console.WriteLine("Is the Employee \n1. Full Time\n2. Part Time");
+            int choice = int.Parse(Console.ReadLine());
+            if(choice == 2)
+            {
+                Console.Write("Employee Working Hours : ");
+                employee.EmployeeType1 = "Part Time Employee";
+                employee.EmployeeWorkingHour1 = double.Parse(Console.ReadLine());
+                CalculateDailyWage(EmployeeDetail);
+            }
+            else
+            {
+                employee.EmployeeType1 = "Full Time Employee";
+                Console.WriteLine("Employee Salary : ");
+                employee.EmployeeSalary1 = double.Parse(Console.ReadLine());
+            }
         }
     }
 }
