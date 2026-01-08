@@ -12,10 +12,9 @@ namespace BridgeLabzTraining.EmployeeWage
         private IEmployee EmployeeUtility;
         public int CountEmployees;
         // Code Snippet to display a menu for the user
-	// UC-04 Code Snippet to use switch case for the Employee menu
         public void EmployeeChoices()
         {
-            IEmployeeDetails[] employees = new IEmployeeDetails[100];
+            Employee[] employees = new Employee[100];
             CountEmployees = 0;
             EmployeeUtility = new EmployeeUtilityImpl();
             while(true)

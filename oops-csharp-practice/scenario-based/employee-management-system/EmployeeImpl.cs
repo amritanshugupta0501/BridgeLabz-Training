@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace BridgeLabzTraining.EmployeeWage
 {
     // Blueprint of details of an employee
-    internal class EmployeeImpl : IEmployeeDetails
+    internal class Employee 
     {
         private string EmployeeName;
         private int EmployeeId;
