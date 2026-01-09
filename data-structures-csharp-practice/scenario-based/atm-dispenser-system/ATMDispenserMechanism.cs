@@ -42,11 +42,13 @@ namespace BridgeLabzTraining.atmdispenser
                     return;
                 }
             }
+            Console.WriteLine(FallbackCombo(amount));
         }
-        public void InitiateAmountRetrievingAfterRemoving500Currency(int amount)
+        // Scenario 2 : Optimal combo after removing the 500 currency note
+        public void InitiateAmountRetrievingAfterRemoving500(int amount)
         {
             AmountRetrieve head = null;
-            int[] notesPresent = new int[] { 1, 2, 5, 10, 20, 50, 100, 200};
+            int[] notesPresent = new int[] { 1, 2, 5, 10, 20, 50, 100, 200 };
             Array.Sort(notesPresent);
             int index = notesPresent.Length - 1;
             for (int moneyNote = index; moneyNote >= 0; moneyNote--)
@@ -75,6 +77,16 @@ namespace BridgeLabzTraining.atmdispenser
                     return;
                 }
             }
+            Console.WriteLine(FallbackCombo(amount));
+        }
+        // Scenario 3 : Fall Back Combo Display if the amount can't be retrieved
+        public string FallbackCombo(int amount)
+        {
+            if(amount == 0)
+            {
+                return "Optimal Combo Achieved!";
+            }
+            return $"{amount} change left.";
         }
         // Function to display the Optimal combo acheived
         public void DisplayComboRetrieved()
