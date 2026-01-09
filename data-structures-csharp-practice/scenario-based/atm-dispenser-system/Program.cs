@@ -16,8 +16,8 @@ namespace BridgeLabzTraining.atmdispenser
             int amount = int.Parse(Console.ReadLine());
             dispenserMechanism.InitiateAmountRetrieving(amount);
             dispenserMechanism.DisplayComboRetrieved();
-            //dispenserMechanism.InitiateAmountRetrievingAfterRemoving500(amount);
-            //dispenserMechanism.DisplayComboRetrieved();
+            dispenserMechanism.InitiateAmountRetrievingAfterRemoving500Currency(amount);
+            dispenserMechanism.DisplayComboRetrieved();
 
         }
     }
