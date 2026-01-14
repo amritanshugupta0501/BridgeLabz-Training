@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace AddressBook.AddressBookSystem
 {
+    // UC - 01 : Ability to create a contact of a person with their first name, last name, email address,
+    //           Contact Number, residential address, city, state, and area zip code
     internal class ContactPerson
     {
         private string PersonFirstName;
