@@ -145,7 +145,7 @@ namespace AddressBook.AddressBookSystem
             }
             return true;
         }
-        // UC - 08 : Searching and displaying contacts by their city or state of residence
+        // UC - 09 : Searching and displaying contacts by their city or state of residence
         public void SearchThroughContactList()
         {
             Console.Write("Give the name of the state or the city : ");

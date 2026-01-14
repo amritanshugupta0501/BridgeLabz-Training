@@ -21,6 +21,7 @@ namespace AddressBook.AddressBookSystem
                 Console.WriteLine("1. Create an Address Book");
                 Console.WriteLine("2. Display all Address Books");
                 Console.WriteLine("3. Work in an Address Book");
+                Console.WriteLine("4. View Entries by their city or state");
                 Console.WriteLine("0. Exit the application");
                 Console.Write("Select the option : ");
                 if (int.TryParse(Console.ReadLine(), out int choice) && choice >= 0)
@@ -40,6 +41,9 @@ namespace AddressBook.AddressBookSystem
                             AddressBook = manageAddressBooks.SelectAnAddressBook();
                             HomeMenuOfAnAddressBook();
                             break;
+                        case 4:
+                            manageAddressBooks.SearchThroughDirectories();
+                            break;
                     }
                 }
                 else
@@ -58,7 +62,7 @@ namespace AddressBook.AddressBookSystem
                 Console.WriteLine("2. Display entries within the address book");
                 Console.WriteLine("3. Edit A Contact using Name");
                 Console.WriteLine("4. Remove a User by their Name");
-                Console.WriteLine("5. Search a User by their City or State");
+                Console.WriteLine("5. View a User by their City or State");
                 Console.WriteLine("0. Exit");
                 Console.Write("Select the option : ");
                 if (int.TryParse(Console.ReadLine(), out int choice) && choice >= 0)
