@@ -63,6 +63,7 @@ namespace AddressBook.AddressBookSystem
                 Console.WriteLine("3. Edit A Contact using Name");
                 Console.WriteLine("4. Remove a User by their Name");
                 Console.WriteLine("5. View a User by their City or State");
+                Console.WriteLine("6. Count Users by their City or State");
                 Console.WriteLine("0. Exit");
                 Console.Write("Select the option : ");
                 if (int.TryParse(Console.ReadLine(), out int choice) && choice >= 0)
@@ -86,6 +87,9 @@ namespace AddressBook.AddressBookSystem
                             break;
                         case 5:
                             AddressBook.SearchThroughContactList();
+                            break;
+                        case 6:
+                            AddressBook.CountUsersFromARegion();
                             break;
                     }
                 }

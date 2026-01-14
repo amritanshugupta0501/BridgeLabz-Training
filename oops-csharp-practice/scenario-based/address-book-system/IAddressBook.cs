@@ -15,5 +15,6 @@ namespace AddressBook.AddressBookSystem
         string AddressBookName1{get; set;}
         bool CheckDuplicate();
         void SearchThroughContactList();
+        void CountUsersFromARegion();
     }
 }

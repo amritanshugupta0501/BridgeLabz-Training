@@ -158,5 +158,21 @@ namespace AddressBook.AddressBookSystem
                 }
             }
         }
+        // UC - 10 : Counting users from a given state or city within a directory of address book
+        public void CountUsersFromARegion()
+        {
+            int countUsers;
+            Console.Write("Give the name of the state or the city : ");
+            string searchRegion = Console.ReadLine();
+            countUsers = 0;
+            for (int loop = 0; loop < CountContactPerson; loop++)
+            {
+                if (ContactPersonsList[loop].PersonState1.Equals(searchRegion) || ContactPersonsList[loop].PersonCity1.Equals(searchRegion))
+                {
+                    countUsers++;
+                }
+            }
+            Console.WriteLine($"Number of users from {searchRegion} : {countUsers}");
+        }
     }
 }
