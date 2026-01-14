@@ -12,5 +12,6 @@ namespace AddressBook.AddressBookSystem
         void DisplayContactsInTheList();
         void EditContactDetailsByName();
         void RemoveAUserByName();
+        string AddressBookName1{get; set;}
     }
 }

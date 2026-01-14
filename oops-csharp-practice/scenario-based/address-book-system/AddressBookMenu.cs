@@ -14,8 +14,43 @@ namespace AddressBook.AddressBookSystem
         // Function to design the home menu of the application
         public void HomeMenu()
         {
-            AddressBook = new AddressBookUtilityImpl();
+            IAddressBookManager manageAddressBooks = new AddressBookManager();
             Console.WriteLine("Welcome to Address Book System Application!");
+            while (true)
+            {
+                Console.WriteLine("1. Create an Address Book");
+                Console.WriteLine("2. Display all Address Books");
+                Console.WriteLine("3. Work in an Address Book");
+                Console.WriteLine("0. Exit the application");
+                Console.Write("Select the option : ");
+                if (int.TryParse(Console.ReadLine(), out int choice) && choice >= 0)
+                {
+                    switch (choice)
+                    {
+                        case 0:
+                            Console.WriteLine("Thank you for using our platform! Hope you have a good day!");
+                            return;
+                        case 1:
+                            manageAddressBooks.CreateANewAddressBook();
+                            break;
+                        case 2:
+                            manageAddressBooks.DisplayAllAddressBooks();
+                            break;
+                        case 3:
+                            AddressBook = manageAddressBooks.SelectAnAddressBook();
+                            HomeMenuOfAnAddressBook();
+                            break;
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Invalid option selected.");
+                }
+            }
+        }
+        public void HomeMenuOfAnAddressBook()
+        {
+            AddressBook = new AddressBookUtilityImpl();
             while (true)
             {
                 Console.WriteLine("Home Menu");
@@ -30,7 +65,6 @@ namespace AddressBook.AddressBookSystem
                     switch(choice)
                     {
                         case 0:
-                            Console.WriteLine("Thank you for using our platform! Hope you have a good day!");
                             return;
                         case 1:
                             AddressBook.AddAContactPerson();

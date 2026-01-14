@@ -9,8 +9,12 @@ namespace AddressBook.AddressBookSystem
     internal class AddressBookUtilityImpl : IAddressBook
     {
         // UC - 05 : Adding mulitple contact person's details to the Address Book using Array
+        private string AddressBookName;
         ContactPerson[] ContactPersonsList = new ContactPerson[100];
-        static int CountContactPerson;
+        int CountContactPerson;
+
+        public string AddressBookName1 { get => AddressBookName; set => AddressBookName = value; }
+
         // UC - 02 : Adding every detail of the contact person to the list from the console.
         public void AddAContactPerson()
         {
