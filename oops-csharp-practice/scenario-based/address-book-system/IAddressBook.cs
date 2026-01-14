@@ -14,5 +14,6 @@ namespace AddressBook.AddressBookSystem
         void RemoveAUserByName();
         string AddressBookName1{get; set;}
         bool CheckDuplicate();
+        void SearchThroughContactList();
     }
 }

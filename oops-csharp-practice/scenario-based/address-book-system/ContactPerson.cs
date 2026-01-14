@@ -28,7 +28,7 @@ namespace AddressBook.AddressBookSystem
         public string PersonZipCode1 { get => PersonZipCode; set => PersonZipCode = value; }
         public override string? ToString()
         {
-            return $"Contact Person First Name : {PersonFirstName1}\n" +
+            return $"Person First Name : {PersonFirstName1}\n" +
                 $"Person Last Name : {PersonLastName1}\n" +
                 $"Person Email Address : {PersonEmail1}\n" +
                 $"Person Contact Number : {PersonPhoneNumber1}\n" +

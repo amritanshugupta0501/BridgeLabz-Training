@@ -58,6 +58,7 @@ namespace AddressBook.AddressBookSystem
                 Console.WriteLine("2. Display entries within the address book");
                 Console.WriteLine("3. Edit A Contact using Name");
                 Console.WriteLine("4. Remove a User by their Name");
+                Console.WriteLine("5. Search a User by their City or State");
                 Console.WriteLine("0. Exit");
                 Console.Write("Select the option : ");
                 if (int.TryParse(Console.ReadLine(), out int choice) && choice >= 0)
@@ -65,6 +66,7 @@ namespace AddressBook.AddressBookSystem
                     switch(choice)
                     {
                         case 0:
+                            Console.WriteLine();
                             return;
                         case 1:
                             AddressBook.AddAContactPerson();
@@ -77,6 +79,9 @@ namespace AddressBook.AddressBookSystem
                             break;
                         case 4:
                             AddressBook.RemoveAUserByName();
+                            break;
+                        case 5:
+                            AddressBook.SearchThroughContactList();
                             break;
                     }
                 }

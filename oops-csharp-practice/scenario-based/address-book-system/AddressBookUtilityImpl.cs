@@ -145,5 +145,18 @@ namespace AddressBook.AddressBookSystem
             }
             return true;
         }
+        // UC - 08 : Searching and displaying contacts by their city or state of residence
+        public void SearchThroughContactList()
+        {
+            Console.Write("Give the name of the state or the city : ");
+            string searchRegion = Console.ReadLine();
+            for (int loop = 0; loop < CountContactPerson; loop++)
+            {
+                if (ContactPersonsList[loop].PersonState1.Equals(searchRegion) || ContactPersonsList[loop].PersonCity1.Equals(searchRegion))
+                {
+                    Console.WriteLine(ContactPersonsList[loop].ToString());
+                }
+            }
+        }
     }
 }
