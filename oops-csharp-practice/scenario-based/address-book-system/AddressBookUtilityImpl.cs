@@ -10,7 +10,7 @@ namespace AddressBook.AddressBookSystem
     {
         ContactPerson[] ContactPersonsList = new ContactPerson[100];
         static int CountContactPerson;
-        // UC - 02 : Adding every detail of the contact person to the list from the console
+        // UC - 02 : Adding every detail of the contact person to the list from the console.
         public void AddAContactPerson()
         {
             ContactPersonsList[CountContactPerson] = new ContactPerson();
@@ -41,10 +41,10 @@ namespace AddressBook.AddressBookSystem
                 Console.WriteLine(ContactPersonsList[loop].ToString());
             }
         }
-        // UC - 03 : Searching and editing a contact detail by the name of the contact person
+        // UC - 03 : Searching and editing a contact detail by the name of the contact person.
         public void EditContactDetailsByName()
         {
-            Console.Write("Give the name of the contact you want to update : ");
+            Console.Write("Give the full name of the contact you want to update : ");
             string contactName = Console.ReadLine();
             for (int loop = 0; loop < CountContactPerson; loop++)
             {
@@ -104,6 +104,25 @@ namespace AddressBook.AddressBookSystem
                 }
             }
             Console.WriteLine("The contact name does not exist in the address book. Perhaps you would like to add a new entry in the address book.");
+        }
+        // UC - 04 : Searching and removing a contact person's details using the name of the contact person.
+        public void RemoveAUserByName()
+        {
+            Console.Write("Give the full name of the contact you want to delete from the address book : ");
+            string contactName = Console.ReadLine();
+            for (int loop = 0; loop < CountContactPerson; loop++)
+            {
+                string personName = ContactPersonsList[loop].PersonFirstName1 + " " + ContactPersonsList[loop].PersonLastName1;
+                if (personName.ToLower().Equals(contactName.ToLower()))
+                {
+                    ContactPersonsList[loop] = null;
+                    for (int loop2 = loop; loop2 < CountContactPerson-1; loop2++)
+                    {
+                        ContactPersonsList[loop2] = ContactPersonsList[loop+1];
+                    }
+                    CountContactPerson--;
+                }
+            }
         }
     }
 }

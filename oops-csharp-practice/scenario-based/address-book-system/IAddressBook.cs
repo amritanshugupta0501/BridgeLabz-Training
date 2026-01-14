@@ -11,6 +11,6 @@ namespace AddressBook.AddressBookSystem
         void AddAContactPerson();
         void DisplayContactsInTheList();
         void EditContactDetailsByName();
-
+        void RemoveAUserByName();
     }
 }
