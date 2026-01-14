@@ -13,5 +13,6 @@ namespace AddressBook.AddressBookSystem
         void EditContactDetailsByName();
         void RemoveAUserByName();
         string AddressBookName1{get; set;}
+        bool CheckDuplicate();
     }
 }

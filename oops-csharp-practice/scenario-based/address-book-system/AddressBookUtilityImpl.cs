@@ -36,7 +36,10 @@ namespace AddressBook.AddressBookSystem
             ContactPersonsList[CountContactPerson].PersonState1 = Console.ReadLine();
             Console.Write("Residential Zip Code : ");
             ContactPersonsList[CountContactPerson].PersonZipCode1 = Console.ReadLine();
-            CountContactPerson++;
+            if(CheckDuplicate())
+            {
+                CountContactPerson++;
+            }
         }
         // Function to display every contact person's detail in the list
         public void DisplayContactsInTheList()
@@ -128,6 +131,19 @@ namespace AddressBook.AddressBookSystem
                     CountContactPerson--;
                 }
             }
+        }
+        // UC - 07 : Ensuring that no duplicate entry has been entered in our address book directory
+        public bool CheckDuplicate()
+        {
+            for(int loop = 0; loop < CountContactPerson; loop++)
+            {
+                if (ContactPersonsList[loop].ToString().Equals(ContactPersonsList[CountContactPerson].ToString()))
+                {
+                    ContactPersonsList[CountContactPerson] = null;
+                    return false;
+                }
+            }
+            return true;
         }
     }
 }
