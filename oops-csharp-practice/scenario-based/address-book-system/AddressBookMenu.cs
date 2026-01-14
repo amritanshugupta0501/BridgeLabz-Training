@@ -18,6 +18,7 @@ namespace AddressBook.AddressBookSystem
                 Console.WriteLine("Home Menu");
                 Console.WriteLine("1. Add an entry to the address book");
                 Console.WriteLine("2. Display entries within the address book");
+                Console.WriteLine("3. Edit A Contact using Name");
                 Console.WriteLine("0. Exit");
                 Console.Write("Select the option : ");
                 if (int.TryParse(Console.ReadLine(), out int choice) && choice >= 0)
@@ -32,6 +33,9 @@ namespace AddressBook.AddressBookSystem
                             break;
                         case 2:
                             AddressBook.DisplayContactsInTheList();
+                            break;
+                        case 3:
+                            AddressBook.EditContactDetailsByName();
                             break;
                     }
                 }

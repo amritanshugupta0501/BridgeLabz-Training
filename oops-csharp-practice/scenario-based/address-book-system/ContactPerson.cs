@@ -33,9 +33,9 @@ namespace AddressBook.AddressBookSystem
                 $"Person Email Address : {PersonEmail1}\n" +
                 $"Person Contact Number : {PersonPhoneNumber1}\n" +
                 $"Person Residential Address : {PersonAddress1}\n" +
-                $"Person Residential City : {PersonCity1}"+
-                $"Person Residential State : {PersonState1}" +
-                $"Person Zip Code : {PersonZipCode1}";
+                $"Person Residential City : {PersonCity1}\n"+
+                $"Person Residential State : {PersonState1}\n" +
+                $"Person Zip Code : {PersonZipCode1}\n";
         }
     }
 }

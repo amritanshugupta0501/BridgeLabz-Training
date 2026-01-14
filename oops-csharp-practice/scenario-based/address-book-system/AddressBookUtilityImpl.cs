@@ -41,5 +41,69 @@ namespace AddressBook.AddressBookSystem
                 Console.WriteLine(ContactPersonsList[loop].ToString());
             }
         }
+        // UC - 03 : Searching and editing a contact detail by the name of the contact person
+        public void EditContactDetailsByName()
+        {
+            Console.Write("Give the name of the contact you want to update : ");
+            string contactName = Console.ReadLine();
+            for (int loop = 0; loop < CountContactPerson; loop++)
+            {
+                string personName = ContactPersonsList[loop].PersonFirstName1 +" "+ ContactPersonsList[loop].PersonLastName1;
+                if (personName.ToLower().Equals(contactName.ToLower()))
+                {
+                    Console.WriteLine("Select the details you want to update : \n1. First Name\n2. Last Name\n3. Email Address\n4. Contact Number\n" +
+                        "5. Residential Address\n6. Residential City\n7. Residential State\n8. ZIP Code");
+                    if(int.TryParse(Console.ReadLine(), out int choice))
+                    {
+                        Console.Write("Give the updated details : ");
+                        switch(choice)
+                        {
+                            case 1:
+                                ContactPersonsList[loop].PersonFirstName1 = Console.ReadLine();
+                                Console.WriteLine("First Name Updated.");
+                                break;
+                            case 2:
+                                ContactPersonsList[loop].PersonLastName1 = Console.ReadLine();
+                                Console.WriteLine("Last Name Updated.");
+                                break;
+                            case 3:
+                                ContactPersonsList[loop].PersonEmail1 = Console.ReadLine();
+                                Console.WriteLine("Email Address Updated.");
+                                break;
+                            case 4:
+                                ContactPersonsList[loop].PersonPhoneNumber1 = Console.ReadLine();
+                                Console.WriteLine("Contact Number Updated.");
+                                break;
+                            case 5:
+                                ContactPersonsList[loop].PersonAddress1 = Console.ReadLine();
+                                Console.WriteLine("Residential Address Updated.");
+                                break;
+                            case 6:
+                                ContactPersonsList[loop].PersonCity1 = Console.ReadLine();
+                                Console.WriteLine("Residential City Updated.");
+                                break;
+                            case 7:
+                                ContactPersonsList[loop].PersonState1 = Console.ReadLine();
+                                Console.WriteLine("Residential State Updated.");
+                                break;
+                            case 8:
+                                ContactPersonsList[loop].PersonZipCode1 = Console.ReadLine();
+                                Console.WriteLine("Zip Code Updated.");
+                                break;
+                            default:
+                                Console.WriteLine("Invalid choice input.");
+                                break;
+                        }
+                        return;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid choice input.");
+                    }
+                    return;
+                }
+            }
+            Console.WriteLine("The contact name does not exist in the address book. Perhaps you would like to add a new entry in the address book.");
+        }
     }
 }
