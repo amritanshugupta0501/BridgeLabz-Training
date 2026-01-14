@@ -6,9 +6,12 @@ using System.Threading.Tasks;
 
 namespace AddressBook.AddressBookSystem
 {
+    // Using sealed class to prevent inheritance of the menu class
     sealed class AddressBookMenu
     {
+        // Object created using parent reference i.e. Interface IAddressBook to call the functionalities of the child class
         private IAddressBook AddressBook;
+        // Function to design the home menu of the application
         public void HomeMenu()
         {
             AddressBook = new AddressBookUtilityImpl();
