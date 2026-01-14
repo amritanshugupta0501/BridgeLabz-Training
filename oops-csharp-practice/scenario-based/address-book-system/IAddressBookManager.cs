@@ -6,14 +6,11 @@ using System.Threading.Tasks;
 
 namespace AddressBook.AddressBookSystem
 {
-    internal interface IAddressBook
+    internal interface IAddressBookManager
     {
-        void AddAContactPerson();
-        void DisplayContactsInTheList();
-        void EditContactDetailsByName();
-        void RemoveAUserByName();
-        string AddressBookName1{get; set;}
-        bool CheckDuplicate();
-        void SearchThroughContactList();
+        void CreateANewAddressBook();
+        void DisplayAllAddressBooks();
+        IAddressBook SelectAnAddressBook();
+        void SearchThroughDirectories();
     }
 }
