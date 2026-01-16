@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace Scenario_Based.TrafficManager
 {
+    // Sealed classs to preven inheritance of the menu class
     sealed class TrafficManagementMenu
     {
         ITrafficManagementSystem TrafficManager;
+        // Function to design Home Menu of the application
         public void HomeMenu()
         {
             Console.WriteLine("Welcome to the Traffic Management System!");
