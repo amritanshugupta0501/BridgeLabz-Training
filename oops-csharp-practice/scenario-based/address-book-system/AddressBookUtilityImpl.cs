@@ -174,5 +174,23 @@ namespace AddressBook.AddressBookSystem
             }
             Console.WriteLine($"Number of users from {searchRegion} : {countUsers}");
         }
+        // UC - 11 : Sorting the address book alphabetically
+        void SortUsersInAnOrderedManner()
+        {
+            for (int outerLoop = 0; outerLoop < CountContactPerson; outerLoop++)
+            {
+                for(int innerLoop = outerLoop;  innerLoop < CountContactPerson; innerLoop++)
+                {
+                    char user1 = ContactPersonsList[innerLoop].PersonFirstName1[0];
+                    char user2 = ContactPersonsList[outerLoop].PersonFirstName1[0];
+                    if(user1 > user2)
+                    {
+                        ContactPerson swapper = ContactPersonsList[innerLoop];
+                        ContactPersonsList[innerLoop] = ContactPersonsList[outerLoop];
+                        ContactPersonsList[outerLoop] = swapper;
+                    }
+                }
+            }
+        }
     }
 }
