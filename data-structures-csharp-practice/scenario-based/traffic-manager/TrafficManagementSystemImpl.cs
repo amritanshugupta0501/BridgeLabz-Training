@@ -7,12 +7,12 @@ using static Scenario_Based.TrafficManager.TrafficManageList;
 
 namespace Scenario_Based.TrafficManager
 {
-    internal class TrafficManagementSystem
+    internal class TrafficManagementSystemImpl : ITrafficManagementSystem
     {
         private TrafficQueue waitingQueue;
         private TrafficManageList roundabout;
-        private TrafficStack exitHistory; 
-        public TrafficManagementSystem(int capacity)
+        private TrafficStack exitHistory;
+        public TrafficManagementSystemImpl(int capacity)
         {
             waitingQueue = new TrafficQueue(capacity);
             roundabout = new TrafficManageList();

@@ -8,13 +8,13 @@ namespace Scenario_Based.TrafficManager
 {
     sealed class TrafficManagementMenu
     {
-        TrafficManagementSystem TrafficManager;
+        ITrafficManagementSystem TrafficManager;
         public void HomeMenu()
         {
             Console.WriteLine("Welcome to the Traffic Management System!");
             Console.Write("Enter Max Traffic Capacity to be handled : ");
             int cap = int.Parse(Console.ReadLine());
-            TrafficManager = new TrafficManagementSystem(cap);
+            TrafficManager = new TrafficManagementSystemImpl(cap);
 
             while (true)
             {

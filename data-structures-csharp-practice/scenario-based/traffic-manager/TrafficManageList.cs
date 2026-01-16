@@ -9,90 +9,87 @@ namespace Scenario_Based.TrafficManager
 {
     internal class TrafficManageList
     {
-        public class CustomCircularList
+        private VehicleNode head = null;
+        private VehicleNode tail = null;
+
+        public bool IsEmpty() => head == null;
+
+        public void Add(VehicleInformation vehicle)
         {
-            private VehicleNode head = null;
-            private VehicleNode tail = null;
+            VehicleNode newNode = new VehicleNode(vehicle);
 
-            public bool IsEmpty() => head == null;
-
-            public void Add(VehicleInformation vehicle)
+            if (head == null)
             {
-                VehicleNode newNode = new VehicleNode(vehicle);
-
-                if (head == null)
-                {
-                    head = newNode;
-                    tail = newNode;
-                    newNode.Next = head; // Point to self
-                }
-                else
-                {
-                    tail.Next = newNode;
-                    tail = newNode;
-                    tail.Next = head; // Point back to start
-                }
-                Console.WriteLine($"ROUNDABOUT: {vehicle} entered the circle.");
+                head = newNode;
+                tail = newNode;
+                newNode.Next = head; // Point to self
             }
-
-            public VehicleInformation RemoveVehicle(string vehicleNumber)
+            else
             {
-                if (head == null) return null;
+                tail.Next = newNode;
+                tail = newNode;
+                tail.Next = head; // Point back to start
+            }
+            Console.WriteLine($"ROUNDABOUT: {vehicle} entered the circle.");
+        }
 
-                VehicleNode current = head;
-                VehicleNode previous = tail;
+        public VehicleInformation RemoveVehicle(string vehicleNumber)
+        {
+            if (head == null) return null;
 
-                do
+            VehicleNode current = head;
+            VehicleNode previous = tail;
+
+            do
+            {
+                if (current.Data.VehicleNumber.Equals(vehicleNumber, StringComparison.OrdinalIgnoreCase))
                 {
-                    if (current.Data.VehicleNumber.Equals(vehicleNumber,StringComparison.OrdinalIgnoreCase))
+                    // Found the car, remove it logic:
+                    if (current == head && current == tail) // Only 1 node
                     {
-                        // Found the car, remove it logic:
-                        if (current == head && current == tail) // Only 1 node
-                        {
-                            head = null;
-                            tail = null;
-                        }
-                        else if (current == head) // Remove Head
-                        {
-                            head = head.Next;
-                            tail.Next = head;
-                        }
-                        else if (current == tail) // Remove Tail
-                        {
-                            tail = previous;
-                            tail.Next = head;
-                        }
-                        else // Remove Middle
-                        {
-                            previous.Next = current.Next;
-                        }
-                        return current.Data;
+                        head = null;
+                        tail = null;
                     }
-
-                    previous = current;
-                    current = current.Next;
-
-                } while (current != head);
-
-                return null; // Not found
-            }
-
-            public void Display()
-            {
-                if (head == null)
-                {
-                    Console.WriteLine("  (Roundabout Empty)");
-                    return;
+                    else if (current == head) // Remove Head
+                    {
+                        head = head.Next;
+                        tail.Next = head;
+                    }
+                    else if (current == tail) // Remove Tail
+                    {
+                        tail = previous;
+                        tail.Next = head;
+                    }
+                    else // Remove Middle
+                    {
+                        previous.Next = current.Next;
+                    }
+                    return current.Data;
                 }
-                VehicleNode current = head;
-                Console.Write("  Flow: ");
-                do
-                {
-                    Console.Write($"{current.Data} -> ");
-                    current = current.Next;
-                } while (current != head);
-                Console.WriteLine("(Back to Start)");
+
+                previous = current;
+                current = current.Next;
+
+            } while (current != head);
+
+            return null; // Not found
+        }
+        public void Display()
+        {
+            if (head == null)
+            {
+                Console.WriteLine("  (Roundabout Empty)");
+                return;
             }
+            VehicleNode current = head;
+            Console.Write("  Flow: ");
+            do
+            {
+                Console.Write($"{current.Data} -> ");
+                current = current.Next;
+            } while (current != head);
+            Console.WriteLine("(Back to Start)");
         }
     }
 }
+
