@@ -11,10 +11,11 @@ namespace AddressBook.AddressBookSystem
     {
         // Object created using parent reference i.e. Interface IAddressBook to call the functionalities of the child class
         private IAddressBook AddressBook;
+        IAddressBookManager manageAddressBooks;
         // Function to design the home menu of the application
         public void HomeMenu()
         {
-            IAddressBookManager manageAddressBooks = new AddressBookManager();
+            manageAddressBooks = new AddressBookManager();
             Console.WriteLine("Welcome to Address Book System Application!");
             while (true)
             {
@@ -54,7 +55,6 @@ namespace AddressBook.AddressBookSystem
         }
         public void HomeMenuOfAnAddressBook()
         {
-            AddressBook = new AddressBookUtilityImpl();
             while (true)
             {
                 Console.WriteLine("Home Menu");

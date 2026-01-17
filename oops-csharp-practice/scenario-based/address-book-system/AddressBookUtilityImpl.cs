@@ -152,7 +152,7 @@ namespace AddressBook.AddressBookSystem
             string searchRegion = Console.ReadLine();
             for (int loop = 0; loop < CountContactPerson; loop++)
             {
-                if (ContactPersonsList[loop].PersonState1.Equals(searchRegion) || ContactPersonsList[loop].PersonCity1.Equals(searchRegion))
+                if (ContactPersonsList[loop].PersonState1.Equals(searchRegion,StringComparison.OrdinalIgnoreCase) || ContactPersonsList[loop].PersonCity1.Equals(searchRegion))
                 {
                     Console.WriteLine(ContactPersonsList[loop].ToString());
                 }
@@ -165,7 +165,7 @@ namespace AddressBook.AddressBookSystem
             Console.Write("Give the name of the state or the city : ");
             string searchRegion = Console.ReadLine();
             countUsers = 0;
-            for (int loop = 0; loop < CountContactPerson; loop++)
+            for (int loop = 0; loop < ContactPersonsList.Length; loop++)
             {
                 if (ContactPersonsList[loop].PersonState1.Equals(searchRegion) || ContactPersonsList[loop].PersonCity1.Equals(searchRegion))
                 {
@@ -175,7 +175,7 @@ namespace AddressBook.AddressBookSystem
             Console.WriteLine($"Number of users from {searchRegion} : {countUsers}");
         }
         // UC - 11 : Sorting the address book alphabetically
-        void SortUsersInAnOrderedManner()
+        public void SortUsersInAnOrderedManner()
         {
             for (int outerLoop = 0; outerLoop < CountContactPerson; outerLoop++)
             {
@@ -183,7 +183,7 @@ namespace AddressBook.AddressBookSystem
                 {
                     char user1 = ContactPersonsList[innerLoop].PersonFirstName1[0];
                     char user2 = ContactPersonsList[outerLoop].PersonFirstName1[0];
-                    if(user1 > user2)
+                    if(user1 < user2)
                     {
                         ContactPerson swapper = ContactPersonsList[innerLoop];
                         ContactPersonsList[innerLoop] = ContactPersonsList[outerLoop];
