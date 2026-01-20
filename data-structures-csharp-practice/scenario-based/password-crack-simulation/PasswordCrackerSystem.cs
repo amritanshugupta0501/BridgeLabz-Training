@@ -54,7 +54,7 @@ namespace Scenario_Based.PasswordCrackSimulation
             for (int i = 0; i < charSet.Length; i++)
             {
                 currentGuess[index] = charSet[i];
-                if (CrackVault(currentGuess, index + 1, length, target))
+                if (CrackPassword(currentGuess, index + 1, length, target))
                 {
                     return true;
                 }
