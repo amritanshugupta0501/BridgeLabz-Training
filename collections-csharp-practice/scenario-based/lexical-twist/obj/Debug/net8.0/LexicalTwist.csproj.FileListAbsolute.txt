@@ -1,0 +1,14 @@
+C:\Users\Asus\source\repos\Scenario-Based\lexical_twist\obj\Debug\net8.0\LexicalTwist.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\source\repos\Scenario-Based\lexical_twist\obj\Debug\net8.0\LexicalTwist.AssemblyInfoInputs.cache
+C:\Users\Asus\source\repos\Scenario-Based\lexical_twist\obj\Debug\net8.0\LexicalTwist.AssemblyInfo.cs
+C:\Users\Asus\source\repos\Scenario-Based\lexical_twist\obj\Debug\net8.0\LexicalTwist.csproj.CoreCompileInputs.cache
+C:\Users\Asus\source\repos\Scenario-Based\lexical_twist\bin\Debug\net8.0\LexicalTwist.exe
+C:\Users\Asus\source\repos\Scenario-Based\lexical_twist\bin\Debug\net8.0\LexicalTwist.deps.json
+C:\Users\Asus\source\repos\Scenario-Based\lexical_twist\bin\Debug\net8.0\LexicalTwist.runtimeconfig.json
+C:\Users\Asus\source\repos\Scenario-Based\lexical_twist\bin\Debug\net8.0\LexicalTwist.dll
+C:\Users\Asus\source\repos\Scenario-Based\lexical_twist\bin\Debug\net8.0\LexicalTwist.pdb
+C:\Users\Asus\source\repos\Scenario-Based\lexical_twist\obj\Debug\net8.0\LexicalTwist.dll
+C:\Users\Asus\source\repos\Scenario-Based\lexical_twist\obj\Debug\net8.0\refint\LexicalTwist.dll
+C:\Users\Asus\source\repos\Scenario-Based\lexical_twist\obj\Debug\net8.0\LexicalTwist.pdb
+C:\Users\Asus\source\repos\Scenario-Based\lexical_twist\obj\Debug\net8.0\LexicalTwist.genruntimeconfig.cache
+C:\Users\Asus\source\repos\Scenario-Based\lexical_twist\obj\Debug\net8.0\ref\LexicalTwist.dll
