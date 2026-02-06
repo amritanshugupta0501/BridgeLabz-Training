@@ -8,7 +8,6 @@ This repository documents my day-wise learning journey and hands-on practice dur
 ## 📅 Training Overview
 * **Technology:** Core C# (.NET)
 * **Mode:** Hands-on, Console-based Programs
-* **Organization:** BridgeLabz
 
 ---
 
@@ -81,12 +80,11 @@ This repository documents my day-wise learning journey and hands-on practice dur
 
 ---
 
-### 🗓️ Day 6 (24 Dec): Programming Practices, Arrays & Mathematical Utilities
+### 🗓️ Day 6 (24 Dec): Programming Practices, Arrays 
 **🔹 Concepts Covered**
 * Best programming practices in C#
 * Naming conventions and modular method design
 * Arrays and numeric computations
-* Use of Math library functions
 
 **🔧 Hands-on Practice**
 * Sum of digits using arrays and random numbers
