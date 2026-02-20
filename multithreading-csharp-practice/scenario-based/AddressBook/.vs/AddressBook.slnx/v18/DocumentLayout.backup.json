@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Asus\\source\\repos\\AddressBook\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0A79F4F8-F931-76EB-71F8-BDB43463694F}|AddressBook.csproj|c:\\users\\asus\\source\\repos\\addressbook\\addressbooksystem\\addressbookutilityimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A79F4F8-F931-76EB-71F8-BDB43463694F}|AddressBook.csproj|solutionrelative:addressbooksystem\\addressbookutilityimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A79F4F8-F931-76EB-71F8-BDB43463694F}|AddressBook.csproj|c:\\users\\asus\\source\\repos\\addressbook\\addressbooksystem\\contactperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A79F4F8-F931-76EB-71F8-BDB43463694F}|AddressBook.csproj|solutionrelative:addressbooksystem\\contactperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A79F4F8-F931-76EB-71F8-BDB43463694F}|AddressBook.csproj|c:\\users\\asus\\source\\repos\\addressbook\\addressbooksystem\\addressbookmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A79F4F8-F931-76EB-71F8-BDB43463694F}|AddressBook.csproj|solutionrelative:addressbooksystem\\addressbookmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A79F4F8-F931-76EB-71F8-BDB43463694F}|AddressBook.csproj|c:\\users\\asus\\source\\repos\\addressbook\\addressbooksystem\\addressbookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A79F4F8-F931-76EB-71F8-BDB43463694F}|AddressBook.csproj|solutionrelative:addressbooksystem\\addressbookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A79F4F8-F931-76EB-71F8-BDB43463694F}|AddressBook.csproj|c:\\users\\asus\\source\\repos\\addressbook\\addressbooksystem\\addressbookmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A79F4F8-F931-76EB-71F8-BDB43463694F}|AddressBook.csproj|solutionrelative:addressbooksystem\\addressbookmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A79F4F8-F931-76EB-71F8-BDB43463694F}|AddressBook.csproj|c:\\users\\asus\\source\\repos\\addressbook\\addressbooksystem\\iaddressbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A79F4F8-F931-76EB-71F8-BDB43463694F}|AddressBook.csproj|solutionrelative:addressbooksystem\\iaddressbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A79F4F8-F931-76EB-71F8-BDB43463694F}|AddressBook.csproj|c:\\users\\asus\\source\\repos\\addressbook\\addressbooksystem\\iaddressbookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A79F4F8-F931-76EB-71F8-BDB43463694F}|AddressBook.csproj|solutionrelative:addressbooksystem\\iaddressbookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddressBookMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\AddressBook\\AddressBookSystem\\AddressBookMenu.cs",
+              "RelativeDocumentMoniker": "AddressBookSystem\\AddressBookMenu.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\AddressBook\\AddressBookSystem\\AddressBookMenu.cs",
+              "RelativeToolTip": "AddressBookSystem\\AddressBookMenu.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAowDgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T06:11:29.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddressBookUtilityImpl.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\AddressBook\\AddressBookSystem\\AddressBookUtilityImpl.cs",
+              "RelativeDocumentMoniker": "AddressBookSystem\\AddressBookUtilityImpl.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\AddressBook\\AddressBookSystem\\AddressBookUtilityImpl.cs",
+              "RelativeToolTip": "AddressBookSystem\\AddressBookUtilityImpl.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwA4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T06:04:10.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddressBookMain.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\AddressBook\\AddressBookSystem\\AddressBookMain.cs",
+              "RelativeDocumentMoniker": "AddressBookSystem\\AddressBookMain.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\AddressBook\\AddressBookSystem\\AddressBookMain.cs",
+              "RelativeToolTip": "AddressBookSystem\\AddressBookMain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T05:41:41.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContactPerson.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\AddressBook\\AddressBookSystem\\ContactPerson.cs",
+              "RelativeDocumentMoniker": "AddressBookSystem\\ContactPerson.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\AddressBook\\AddressBookSystem\\ContactPerson.cs",
+              "RelativeToolTip": "AddressBookSystem\\ContactPerson.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwBQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T05:42:11.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddressBookManager.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\AddressBook\\AddressBookSystem\\AddressBookManager.cs",
+              "RelativeDocumentMoniker": "AddressBookSystem\\AddressBookManager.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\AddressBook\\AddressBookSystem\\AddressBookManager.cs",
+              "RelativeToolTip": "AddressBookSystem\\AddressBookManager.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T09:24:52.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAddressBook.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\AddressBook\\AddressBookSystem\\IAddressBook.cs",
+              "RelativeDocumentMoniker": "AddressBookSystem\\IAddressBook.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\AddressBook\\AddressBookSystem\\IAddressBook.cs",
+              "RelativeToolTip": "AddressBookSystem\\IAddressBook.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAkwBIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T06:16:57.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IAddressBookManager.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\AddressBook\\AddressBookSystem\\IAddressBookManager.cs",
+              "RelativeDocumentMoniker": "AddressBookSystem\\IAddressBookManager.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\AddressBook\\AddressBookSystem\\IAddressBookManager.cs",
+              "RelativeToolTip": "AddressBookSystem\\IAddressBookManager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T09:50:39.631Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

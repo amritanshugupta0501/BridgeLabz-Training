@@ -1,0 +1,22 @@
+[
+  {
+    "PersonFirstName": "John",
+    "PersonLastName": "Doe",
+    "PersonEmail": "john.doe@example.com",
+    "PersonPhoneNumber": "555-1234",
+    "PersonAddress": "123 Elm St",
+    "PersonCity": "Springfield",
+    "PersonState": "IL",
+    "PersonZipCode": "62704"
+  },
+  {
+    "PersonFirstName": "Jane",
+    "PersonLastName": "Smith",
+    "PersonEmail": "jane.smith@example.com",
+    "PersonPhoneNumber": "555-5678",
+    "PersonAddress": "456 Oak Ave",
+    "PersonCity": "Springfield",
+    "PersonState": "IL",
+    "PersonZipCode": "62704"
+  }
+]
