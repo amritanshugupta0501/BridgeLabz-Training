@@ -1,208 +1,214 @@
-# 
+# 📅 Day 1 - DBMS Fundamentals \& RDBMS Basics
 
-# \# 📅 Day 1 - DBMS Fundamentals \& Database Design
+# 📖 Topics Covered
 
-# 
+# DBMS Fundamentals
 
-# \## 📖 Topics Covered
+# RDBMS Basics
 
-# \- DBMS Fundamentals
+# Relational vs Non-Relational Databases
 
-# \- RDBMS Basics
+# Introduction to Microsoft SQL Server \& T-SQL
 
-# \- Relational vs Non-Relational Databases
+# RDBMS Concepts
 
-# \- Introduction to Microsoft SQL Server \& T-SQL
+# DDL Commands
 
-# \- RDBMS Concepts
+# CREATE
 
-# \- DDL Commands (CREATE, ALTER, DROP, TRUNCATE)
+# ALTER
 
-# \- DML Commands (INSERT, UPDATE, DELETE, SELECT)
+# DROP
 
-# \- SQL Server Environment Setup
+# TRUNCATE
 
-# \- Database Design
+# DML Commands
 
-# \- Primary Keys \& Foreign Keys
+# INSERT
 
-# \- One-to-One, One-to-Many \& Many-to-Many Relationships
+# UPDATE
 
-# \- Stored Procedures
+# DELETE
 
-# \- SQL Joins
+# SELECT
 
-# \- ON DELETE CASCADE
+# SQL Server Environment Setup
 
-# \- Backend Logging Concepts
+# ER Diagram Design
 
-# \- ER Diagram for a HealthCare Clinic Application
+# Database Relationships
 
-# 
+# Foreign Keys \& Primary Keys
 
-# \---
+# ON DELETE CASCADE
 
-# 
+# Entity Attributes
 
-# \# 📅 Day 2 - Schema Enhancement \& Query Optimization
+# Normalization (1NF, 2NF, 3NF, BCNF)
 
-# 
+# 📂 Contents
 
-# \## 📖 Topics Covered
+# Database Schema
 
-# \- HealthCare Clinic Database Schema Extension
+# SQL Scripts
 
-# \- Room Allocation using Foreign Keys
+# ER Diagram
 
-# \- One-to-Many Relationships
+# Practice Queries
 
-# \- Database Indexing
+# README
 
-# \- Clustered Index
-
-# \- Non-Clustered Index
-
-# \- Single Column Index
-
-# \- Composite Index
-
-# \- Covering Index
-
-# \- Query Optimization
-
-# \- SQL Server Execution Plans
-
-# \- Database Normalization
-
-# \- First Normal Form (1NF)
-
-# \- Second Normal Form (2NF)
-
-# \- Third Normal Form (3NF)
-
-# \- Patient Phone Number Table Design
-
-# \- ER Diagram Design
-
-
-
-# \---
+# 🎯 Learning Outcome
 
 # 
 
-# \# 📂 Project Contents
-
-# \- SQL Scripts
-
-# \- Database Schema
-
-# \- Table Creation Scripts
-
-# \- Sample Queries
-
-# \- Stored Procedures
-
-# \- Index Creation Scripts
-
-# \- Query Optimization Examples
-
-# \- Execution Plan Analysis
-
-# \- Normalization Examples
-
-# \- ER Diagrams
-
-# \- README Documentation
+# By completing Day 1, I gained a strong understanding of database fundamentals, SQL Server setup, T-SQL syntax, relational database concepts, normalization, relationships, and designing a Health Clinic database using ER diagrams.
 
 # 
 
-# \---
+
+
+
+
+
+
+# 📅 Day 2 - Database Design \& Performance Optimization
+
+# 📖 Topics Covered
+
+# Extending the Health Clinic Schema
+
+# Room Allocation for Doctors
+
+# One-to-One and One-to-Many Relationships
+
+# Doctor-Room Assignment
+
+# Indexing
+
+# Clustered Index
+
+# Non-Clustered Index
+
+# Composite Index
+
+# Covering Index
+
+# Query Optimization
+
+# EXPLAIN Execution Plan
+
+# Performance Analysis
+
+# Patient Phone Normalization
+
+# Verification of 1NF, 2NF \& 3NF
+
+# 📂 Contents
+
+# Health Clinic Schema
+
+# Room Allocation Tables
+
+# Index Scripts
+
+# Performance Queries
+
+# EXPLAIN Analysis
+
+# Normalization Examples
+
+# README
+
+# 💻 Implementations
+
+# Created Doctors, Patients, Appointments, and AllotedRooms tables.
+
+# Established Primary Key and Foreign Key relationships.
+
+# Assigned consultation rooms to doctors.
+
+# Created indexes to improve query performance.
+
+# Compared execution plans before and after indexing.
+
+# Verified normalization of the database schema.
+
+# 🎯 Learning Outcome
 
 # 
 
-# \# 🗂️ Database Tables
-
-# \- Doctors
-
-# \- Patients
-
-# \- Appointments
-
-# \- AllotedRooms
+# By completing Day 2, I learned how to optimize databases using indexes, analyze query execution plans, extend existing schemas, normalize data, and improve database performance.
 
 # 
 
-# \---
+
+
+
+
+# 📅 Day 3 - SQL Joins, Stored Procedures \& Triggers
+
+# 📖 Topics Covered
+
+# SQL Joins
+
+# Inner Join
+
+# Left Join
+
+# Right Join
+
+# Full Outer Join
+
+# Stored Procedures
+
+# Creating Stored Procedures
+
+# Executing Stored Procedures
+
+# CRUD Operations
+
+# Triggers
+
+# AFTER Trigger
+
+# INSTEAD OF Trigger
+
+# Audit Logging
+
+# Automated Database Actions
+
+# 📂 Contents
+
+# Join Queries
+
+# Stored Procedures
+
+# Trigger Scripts
+
+# Audit Log Table
+
+# Health Clinic Database
+
+# README
+
+# 💻 Implementations
+
+# Wrote SQL Join queries for the Health Clinic database.
+
+# Developed Stored Procedures for Doctors, Patients, and Appointments.
+
+# Added validation logic such as preventing multiple doctors from being assigned the same consultation room.
+
+# Created a centralized AuditLogs table.
+
+# Implemented AFTER Triggers for Doctors, Patients, and Appointments to automatically record INSERT, UPDATE, and DELETE operations.
+
+# Logged old and new record values along with the action performed, timestamp, and user information.
+
+# 🎯 Learning Outcome
 
 # 
 
-# \# 🔗 Database Relationships
-
-# \- One Doctor → Many Patients
-
-# \- One Doctor → Many Appointments
-
-# \- One Patient → Many Appointments
-
-# \- One Room → Many Doctors
-
-# 
-
-# \---
-
-# 
-
-# \# ⚡ Indexing Implemented
-
-# \- Clustered Index
-
-# \- Non-Clustered Index
-
-# \- Single Column Index
-
-# \- Composite Index
-
-# \- Covering Index
-
-# 
-
-# \---
-
-# 
-
-# \# 📊 Database Normalization
-
-# \- First Normal Form (1NF)
-
-# \- Second Normal Form (2NF)
-
-# \- Third Normal Form (3NF)
-
-# 
-
-# \---
-
-# 
-
-# \# 📐 ER Diagram
-
-# The project includes an ER Diagram representing:
-
-# \- Doctors
-
-# \- Patients
-
-# \- Appointments
-
-# \- AllotedRooms
-
-# \- Primary Keys
-
-# \- Foreign Keys
-
-# \- Entity Relationships
-
-# 
-
-# \---
+# By completing Day 3, I gained hands-on experience with SQL joins, Stored Procedures, and Triggers. I learned how to automate database operations, implement business rules, create reusable procedures, and maintain audit logs for tracking database changes.
 
