@@ -36,37 +36,36 @@ namespace HealthCareClinic.Controller
                 }
             }
         }
+        // Disconnected Architecture
         // Retrieves all doctors from the database.
         public List<Doctor> GetAllData()
         {
-            List<Doctor> doctors = new List<Doctor>();
+            List<Doctor> doctorsList = new List<Doctor>();
+            DataTable dataTable = new DataTable();
             using (SqlConnection connection = new SqlConnection(_connectionString))
             {
-                using (SqlCommand command = new SqlCommand("sp_GetDoctors", connection))
+                string query = "SELECT * FROM Doctors";
+                using (SqlDataAdapter adapter = new SqlDataAdapter(query, connection))
                 {
-                    command.CommandType = CommandType.StoredProcedure;
-                    connection.Open();
-                    using (SqlDataReader reader = command.ExecuteReader())
-                    {
-                        while (reader.Read())
-                        {
-                            doctors.Add(new Doctor
-                            {
-                                DoctorID = Convert.ToInt32(reader["DoctorID"]),
-                                FirstName = reader["FirstName"].ToString(),
-                                LastName = reader["LastName"].ToString(),
-                                Specialization = reader["Specialization"].ToString(),
-                                ContactNumber = reader["ContactNumber"].ToString(),
-                                ContactEmail = reader["ContactEmail"].ToString(),
-                                RoomNumber = Convert.ToInt32(reader["RoomNumber"])
-                            });
-                        }
-                    }
+                    adapter.Fill(dataTable);
                 }
             }
-            return doctors;
+            foreach (DataRow reader in dataTable.Rows)
+            {
+                Doctor doctor = new Doctor
+                {
+                    DoctorID = Convert.ToInt32(reader["DoctorID"]),
+                    FirstName = reader["FirstName"].ToString(),
+                    LastName = reader["LastName"].ToString(),
+                    Specialization = reader["Specialization"].ToString(),
+                    ContactNumber = reader["ContactNumber"].ToString(),
+                    ContactEmail = reader["ContactEmail"].ToString(),
+                    RoomNumber = Convert.ToInt32(reader["RoomNumber"])
+                };
+                doctorsList.Add(doctor);
+            }
+            return doctorsList;
         }
-        // Retrieves a single doctor record using the provided doctor ID.
         public Doctor GetDataById(int doctorId)
         {
             Doctor doctor = null;

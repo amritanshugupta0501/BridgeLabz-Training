@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Menu\\HealthCareClinic.Menu.csproj": {}
+    "c:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Menu\\HealthCareClinic.Menu.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Controller\\HealthCareClinic.Controller.csproj": {
+    "c:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Controller\\HealthCareClinic.Controller.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Controller\\HealthCareClinic.Controller.csproj",
+        "projectUniqueName": "c:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Controller\\HealthCareClinic.Controller.csproj",
         "projectName": "HealthCareClinic.Controller",
-        "projectPath": "C:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Controller\\HealthCareClinic.Controller.csproj",
+        "projectPath": "c:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Controller\\HealthCareClinic.Controller.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Controller\\obj\\",
+        "outputPath": "c:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Controller\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -31,10 +31,11 @@
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Models\\HealthCareClinic.Models.csproj": {
-                "projectPath": "C:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Models\\HealthCareClinic.Models.csproj"
+              "c:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Models\\HealthCareClinic.Models.csproj": {
+                "projectPath": "c:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Models\\HealthCareClinic.Models.csproj"
               }
             }
           }
@@ -53,6 +54,7 @@
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
             "Microsoft.Data.SqlClient": {
@@ -354,14 +356,14 @@
         }
       }
     },
-    "C:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Menu\\HealthCareClinic.Menu.csproj": {
+    "c:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Menu\\HealthCareClinic.Menu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Menu\\HealthCareClinic.Menu.csproj",
+        "projectUniqueName": "c:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Menu\\HealthCareClinic.Menu.csproj",
         "projectName": "HealthCareClinic.Menu",
-        "projectPath": "C:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Menu\\HealthCareClinic.Menu.csproj",
+        "projectPath": "c:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Menu\\HealthCareClinic.Menu.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Menu\\obj\\",
+        "outputPath": "c:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Menu\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -381,16 +383,17 @@
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Controller\\HealthCareClinic.Controller.csproj": {
-                "projectPath": "C:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Controller\\HealthCareClinic.Controller.csproj"
+              "c:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Controller\\HealthCareClinic.Controller.csproj": {
+                "projectPath": "c:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Controller\\HealthCareClinic.Controller.csproj"
               },
-              "C:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Models\\HealthCareClinic.Models.csproj": {
-                "projectPath": "C:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Models\\HealthCareClinic.Models.csproj"
+              "c:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Models\\HealthCareClinic.Models.csproj": {
+                "projectPath": "c:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Models\\HealthCareClinic.Models.csproj"
               },
-              "C:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Services\\HealthCareClinic.Services.csproj": {
-                "projectPath": "C:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Services\\HealthCareClinic.Services.csproj"
+              "c:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Services\\HealthCareClinic.Services.csproj": {
+                "projectPath": "c:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Services\\HealthCareClinic.Services.csproj"
               }
             }
           }
@@ -409,6 +412,7 @@
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
             "Microsoft.Extensions.Configuration": {
@@ -718,14 +722,14 @@
         }
       }
     },
-    "C:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Models\\HealthCareClinic.Models.csproj": {
+    "c:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Models\\HealthCareClinic.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Models\\HealthCareClinic.Models.csproj",
+        "projectUniqueName": "c:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Models\\HealthCareClinic.Models.csproj",
         "projectName": "HealthCareClinic.Models",
-        "projectPath": "C:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Models\\HealthCareClinic.Models.csproj",
+        "projectPath": "c:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Models\\HealthCareClinic.Models.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Models\\obj\\",
+        "outputPath": "c:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -745,6 +749,7 @@
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -763,6 +768,7 @@
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -1058,14 +1064,14 @@
         }
       }
     },
-    "C:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Services\\HealthCareClinic.Services.csproj": {
+    "c:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Services\\HealthCareClinic.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Services\\HealthCareClinic.Services.csproj",
+        "projectUniqueName": "c:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Services\\HealthCareClinic.Services.csproj",
         "projectName": "HealthCareClinic.Services",
-        "projectPath": "C:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Services\\HealthCareClinic.Services.csproj",
+        "projectPath": "c:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Services\\HealthCareClinic.Services.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Services\\obj\\",
+        "outputPath": "c:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1085,13 +1091,14 @@
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Controller\\HealthCareClinic.Controller.csproj": {
-                "projectPath": "C:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Controller\\HealthCareClinic.Controller.csproj"
+              "c:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Controller\\HealthCareClinic.Controller.csproj": {
+                "projectPath": "c:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Controller\\HealthCareClinic.Controller.csproj"
               },
-              "C:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Models\\HealthCareClinic.Models.csproj": {
-                "projectPath": "C:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Models\\HealthCareClinic.Models.csproj"
+              "c:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Models\\HealthCareClinic.Models.csproj": {
+                "projectPath": "c:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Models\\HealthCareClinic.Models.csproj"
               }
             }
           }
@@ -1110,6 +1117,7 @@
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",

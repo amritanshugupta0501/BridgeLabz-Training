@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+0liSFUtAt8=",
+  "dgSpecHash": "R34iHpGp2Go=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Services\\HealthCareClinic.Services.csproj",
+  "projectFilePath": "c:\\Users\\Asus\\OneDrive\\Desktop\\HealthCareCLinic\\HealthCareClinic.Services\\HealthCareClinic.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.bcl.cryptography\\9.0.13\\microsoft.bcl.cryptography.9.0.13.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.data.sqlclient\\7.0.2\\microsoft.data.sqlclient.7.0.2.nupkg.sha512",
