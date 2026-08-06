@@ -1,214 +1,168 @@
-# 📅 Day 1 - DBMS Fundamentals \& RDBMS Basics
+# Backend Development Training Program
 
-# 📖 Topics Covered
+# Course Overview
 
-# DBMS Fundamentals
-
-# RDBMS Basics
-
-# Relational vs Non-Relational Databases
-
-# Introduction to Microsoft SQL Server \& T-SQL
-
-# RDBMS Concepts
-
-# DDL Commands
-
-# CREATE
-
-# ALTER
-
-# DROP
-
-# TRUNCATE
-
-# DML Commands
-
-# INSERT
-
-# UPDATE
-
-# DELETE
-
-# SELECT
-
-# SQL Server Environment Setup
-
-# ER Diagram Design
-
-# Database Relationships
-
-# Foreign Keys \& Primary Keys
-
-# ON DELETE CASCADE
-
-# Entity Attributes
-
-# Normalization (1NF, 2NF, 3NF, BCNF)
-
-# 📂 Contents
-
-# Database Schema
-
-# SQL Scripts
-
-# ER Diagram
-
-# Practice Queries
-
-# README
-
-# 🎯 Learning Outcome
+# This repository outlines the curriculum and project milestones for the training program. The course progresses from foundational database management systems to advanced backend development, culminating in the creation of a persistent console application and the initiation of web-based services.
 
 # 
 
-# By completing Day 1, I gained a strong understanding of database fundamentals, SQL Server setup, T-SQL syntax, relational database concepts, normalization, relationships, and designing a Health Clinic database using ER diagrams.
+# => Day 1: Database Programming
+
+# Focus: DBMS Fundamentals \& RDBMS Basics
 
 # 
 
-
-
-
-
-
-
-# 📅 Day 2 - Database Design \& Performance Optimization
-
-# 📖 Topics Covered
-
-# Extending the Health Clinic Schema
-
-# Room Allocation for Doctors
-
-# One-to-One and One-to-Many Relationships
-
-# Doctor-Room Assignment
-
-# Indexing
-
-# Clustered Index
-
-# Non-Clustered Index
-
-# Composite Index
-
-# Covering Index
-
-# Query Optimization
-
-# EXPLAIN Execution Plan
-
-# Performance Analysis
-
-# Patient Phone Normalization
-
-# Verification of 1NF, 2NF \& 3NF
-
-# 📂 Contents
-
-# Health Clinic Schema
-
-# Room Allocation Tables
-
-# Index Scripts
-
-# Performance Queries
-
-# EXPLAIN Analysis
-
-# Normalization Examples
-
-# README
-
-# 💻 Implementations
-
-# Created Doctors, Patients, Appointments, and AllotedRooms tables.
-
-# Established Primary Key and Foreign Key relationships.
-
-# Assigned consultation rooms to doctors.
-
-# Created indexes to improve query performance.
-
-# Compared execution plans before and after indexing.
-
-# Verified normalization of the database schema.
-
-# 🎯 Learning Outcome
+# Core Concepts:
 
 # 
 
-# By completing Day 2, I learned how to optimize databases using indexes, analyze query execution plans, extend existing schemas, normalize data, and improve database performance.
+# Analysis of Database Management Systems (DBMS): Relational vs. Non-Relational structures and standard use cases.
 
 # 
 
-
-
-
-
-# 📅 Day 3 - SQL Joins, Stored Procedures \& Triggers
-
-# 📖 Topics Covered
-
-# SQL Joins
-
-# Inner Join
-
-# Left Join
-
-# Right Join
-
-# Full Outer Join
-
-# Stored Procedures
-
-# Creating Stored Procedures
-
-# Executing Stored Procedures
-
-# CRUD Operations
-
-# Triggers
-
-# AFTER Trigger
-
-# INSTEAD OF Trigger
-
-# Audit Logging
-
-# Automated Database Actions
-
-# 📂 Contents
-
-# Join Queries
-
-# Stored Procedures
-
-# Trigger Scripts
-
-# Audit Log Table
-
-# Health Clinic Database
-
-# README
-
-# 💻 Implementations
-
-# Wrote SQL Join queries for the Health Clinic database.
-
-# Developed Stored Procedures for Doctors, Patients, and Appointments.
-
-# Added validation logic such as preventing multiple doctors from being assigned the same consultation room.
-
-# Created a centralized AuditLogs table.
-
-# Implemented AFTER Triggers for Doctors, Patients, and Appointments to automatically record INSERT, UPDATE, and DELETE operations.
-
-# Logged old and new record values along with the action performed, timestamp, and user information.
-
-# 🎯 Learning Outcome
+# Introduction to Microsoft SQL Server and Transact-SQL (T-SQL).
 
 # 
 
-# By completing Day 3, I gained hands-on experience with SQL joins, Stored Procedures, and Triggers. I learned how to automate database operations, implement business rules, create reusable procedures, and maintain audit logs for tracking database changes.
+# Relational Database Management System (RDBMS) fundamentals, encompassing Data Definition Language (DDL) and Data Manipulation Language (DML).
+
+# 
+
+# Practical Application:
+
+# 
+
+# Configure and initialize the MS SQL Server development environment.
+
+# 
+
+# Draft the preliminary Entity-Relationship (ER) Diagram for the Health Clinic Application, focusing on core entities (Patients, Doctors, and Appointments).
+
+# 
+
+# => Day 2: Database Programming
+
+# Focus: ER Diagram, Indexing \& Normalization
+
+# 
+
+# Core Concepts:
+
+# 
+
+# Advanced ER Diagram design principles, including entity mapping, relationships, and cardinality.
+
+# 
+
+# Database indexing: Architectural purpose and implications for system performance.
+
+# 
+
+# Data normalization standards (1NF, 2NF, 3NF, and BCNF).
+
+# 
+
+# Practical Application:
+
+# 
+
+# Finalize the comprehensive ER Diagram for the Health Clinic Application.
+
+# 
+
+# Apply normalization rules to optimize the Patient, Doctor, and Appointment schema.
+
+# 
+
+# => Day 3: Database Programming
+
+# Focus: Joins, Stored Procedures \& Triggers
+
+# 
+
+# Core Concepts:
+
+# 
+
+# Implementation of SQL Joins (Inner, Left, Right, and Full Outer).
+
+# 
+
+# Development and deployment of Stored Procedures for modular data operations.
+
+# 
+
+# Utilization of Triggers for automated, event-driven database actions.
+
+# 
+
+# Practical Application:
+
+# 
+
+# Script required joins, stored procedures, and triggers to support the application schema (e.g., automating visit history updates).
+
+# 
+
+# => Day 4: Database Programming
+
+
+
+# Focus: ADO.NET \& Health Clinic App Completion
+
+# 
+
+# Core Concepts:
+
+# 
+
+# Framework integration: Connecting a .NET application to MS SQL Server utilizing ADO.NET.
+
+# 
+
+# Executing CRUD (Create, Read, Update, Delete) operations via ADO.NET to implement the finalized database schema.
+
+# 
+
+# Practical Application:
+
+# 
+
+# Complete the Health Clinic Application backend logic to support patient registration, doctor/specialty management, appointment scheduling, visit history tracking, and basic billing processes.
+
+# 
+
+# Ensure all data is reliably persisted via ADO.NET and MS SQL Server.
+
+# 
+
+# Execute a final demonstration of the completed console-based application.
+
+# 
+
+# => Day 5: Backend Basics
+
+
+
+# Focus: ASP.NET Core, WebAPI \& RESTful Services
+
+# 
+
+# Core Concepts:
+
+# 
+
+# Introduction to the ASP.NET Core framework and ASP.NET WebAPI architecture.
+
+# 
+
+# Fundamentals of RESTful Services, including standardized design principles and system architecture.
+
+# 
+
+# Practical Application:
+
+# 
+
+# Scaffold and configure a foundational ASP.NET Core WebAPI project
 
