@@ -1,0 +1,16 @@
+C:\Users\Asus\OneDrive\Desktop\HealthCareCLinic\HealthCareClinic.Controller\obj\Debug\net10.0\HealthCareClinic.Controller.csproj.AssemblyReference.cache
+C:\Users\Asus\OneDrive\Desktop\HealthCareCLinic\HealthCareClinic.Controller\obj\Debug\net10.0\HealthCareClinic.Controller.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\OneDrive\Desktop\HealthCareCLinic\HealthCareClinic.Controller\obj\Debug\net10.0\HealthCareClinic.Controller.AssemblyInfoInputs.cache
+C:\Users\Asus\OneDrive\Desktop\HealthCareCLinic\HealthCareClinic.Controller\obj\Debug\net10.0\HealthCareClinic.Controller.AssemblyInfo.cs
+C:\Users\Asus\OneDrive\Desktop\HealthCareCLinic\HealthCareClinic.Controller\obj\Debug\net10.0\HealthCareClinic.Controller.csproj.CoreCompileInputs.cache
+C:\Users\Asus\OneDrive\Desktop\HealthCareCLinic\HealthCareClinic.Controller\obj\Debug\net10.0\HealthCareClinic.Controller.sourcelink.json
+C:\Users\Asus\OneDrive\Desktop\HealthCareCLinic\HealthCareClinic.Controller\bin\Debug\net10.0\HealthCareClinic.Controller.deps.json
+C:\Users\Asus\OneDrive\Desktop\HealthCareCLinic\HealthCareClinic.Controller\bin\Debug\net10.0\HealthCareClinic.Controller.dll
+C:\Users\Asus\OneDrive\Desktop\HealthCareCLinic\HealthCareClinic.Controller\bin\Debug\net10.0\HealthCareClinic.Controller.pdb
+C:\Users\Asus\OneDrive\Desktop\HealthCareCLinic\HealthCareClinic.Controller\bin\Debug\net10.0\HealthCareClinic.Models.dll
+C:\Users\Asus\OneDrive\Desktop\HealthCareCLinic\HealthCareClinic.Controller\bin\Debug\net10.0\HealthCareClinic.Models.pdb
+C:\Users\Asus\OneDrive\Desktop\HealthCareCLinic\HealthCareClinic.Controller\obj\Debug\net10.0\HealthCa.872F6DF0.Up2Date
+C:\Users\Asus\OneDrive\Desktop\HealthCareCLinic\HealthCareClinic.Controller\obj\Debug\net10.0\HealthCareClinic.Controller.dll
+C:\Users\Asus\OneDrive\Desktop\HealthCareCLinic\HealthCareClinic.Controller\obj\Debug\net10.0\refint\HealthCareClinic.Controller.dll
+C:\Users\Asus\OneDrive\Desktop\HealthCareCLinic\HealthCareClinic.Controller\obj\Debug\net10.0\HealthCareClinic.Controller.pdb
+C:\Users\Asus\OneDrive\Desktop\HealthCareCLinic\HealthCareClinic.Controller\obj\Debug\net10.0\ref\HealthCareClinic.Controller.dll
