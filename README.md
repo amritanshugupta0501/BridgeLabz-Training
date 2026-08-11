@@ -166,3 +166,12 @@
 
 # \* Build 'My Greetings App' using ASP.NET Core MVC / WebAPI.
 
+### => Day 7: Backend Basics
+**Focus:** Minimal APIs
+
+**Core Concepts:**
+* Minimal APIs in ASP.NET Core - lightweight endpoint definitions.
+
+# \*\*Practical Application:\*\*
+
+# \* Build 'Contacts App' using ASP.NET Minimal Api.
