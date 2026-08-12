@@ -1,0 +1,10 @@
+namespace Models
+{
+    public class ContactModel
+    {
+        public int ContactId { get; set; }
+        public string ContactName { get; set; }
+        public string ContactEmail { get; set; }
+        public string ContactNumber{ get; set; }
+    }
+}
