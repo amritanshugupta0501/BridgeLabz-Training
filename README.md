@@ -107,3 +107,17 @@ This repository outlines the curriculum and project milestones for the training 
 **Practical Application:**
 * Continue Contacts App backend - apply concepts introduced daily in live class.
 * Test Contacts App endpoints using RestAssured.Net.
+
+---
+
+### => Day 9: Backend w/ Entity Framework
+**Focus:** ORM & Entity Framework Fundamentals
+
+**Core Concepts:**
+* ORM concepts; Entity Framework introduction.
+* WebAPI-powered REST API with EF.
+* Dependency Injection in ASP.NET Core.
+
+**Practical Application:**
+* Bootstrap Entity Framework in a new WebAPI project.
+* Continue building the Contacts App backend with EF.

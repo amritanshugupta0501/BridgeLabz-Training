@@ -1,0 +1,12 @@
+C:\Users\Asus\OneDrive\Desktop\EntityFrameworkContactsApplication\ContactsApp.Models\bin\Debug\net10.0\ContactsApp.Models.deps.json
+C:\Users\Asus\OneDrive\Desktop\EntityFrameworkContactsApplication\ContactsApp.Models\bin\Debug\net10.0\ContactsApp.Models.dll
+C:\Users\Asus\OneDrive\Desktop\EntityFrameworkContactsApplication\ContactsApp.Models\bin\Debug\net10.0\ContactsApp.Models.pdb
+C:\Users\Asus\OneDrive\Desktop\EntityFrameworkContactsApplication\ContactsApp.Models\obj\Debug\net10.0\ContactsApp.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\OneDrive\Desktop\EntityFrameworkContactsApplication\ContactsApp.Models\obj\Debug\net10.0\ContactsApp.Models.AssemblyInfoInputs.cache
+C:\Users\Asus\OneDrive\Desktop\EntityFrameworkContactsApplication\ContactsApp.Models\obj\Debug\net10.0\ContactsApp.Models.AssemblyInfo.cs
+C:\Users\Asus\OneDrive\Desktop\EntityFrameworkContactsApplication\ContactsApp.Models\obj\Debug\net10.0\ContactsApp.Models.csproj.CoreCompileInputs.cache
+C:\Users\Asus\OneDrive\Desktop\EntityFrameworkContactsApplication\ContactsApp.Models\obj\Debug\net10.0\ContactsApp.Models.sourcelink.json
+C:\Users\Asus\OneDrive\Desktop\EntityFrameworkContactsApplication\ContactsApp.Models\obj\Debug\net10.0\ContactsApp.Models.dll
+C:\Users\Asus\OneDrive\Desktop\EntityFrameworkContactsApplication\ContactsApp.Models\obj\Debug\net10.0\refint\ContactsApp.Models.dll
+C:\Users\Asus\OneDrive\Desktop\EntityFrameworkContactsApplication\ContactsApp.Models\obj\Debug\net10.0\ContactsApp.Models.pdb
+C:\Users\Asus\OneDrive\Desktop\EntityFrameworkContactsApplication\ContactsApp.Models\obj\Debug\net10.0\ref\ContactsApp.Models.dll

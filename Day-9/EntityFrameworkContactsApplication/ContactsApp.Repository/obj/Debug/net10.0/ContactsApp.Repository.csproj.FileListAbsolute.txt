@@ -1,0 +1,16 @@
+C:\Users\Asus\OneDrive\Desktop\EntityFrameworkContactsApplication\ContactsApp.Repository\bin\Debug\net10.0\ContactsApp.Repository.deps.json
+C:\Users\Asus\OneDrive\Desktop\EntityFrameworkContactsApplication\ContactsApp.Repository\bin\Debug\net10.0\ContactsApp.Repository.dll
+C:\Users\Asus\OneDrive\Desktop\EntityFrameworkContactsApplication\ContactsApp.Repository\bin\Debug\net10.0\ContactsApp.Repository.pdb
+C:\Users\Asus\OneDrive\Desktop\EntityFrameworkContactsApplication\ContactsApp.Repository\bin\Debug\net10.0\ContactsApp.Models.dll
+C:\Users\Asus\OneDrive\Desktop\EntityFrameworkContactsApplication\ContactsApp.Repository\bin\Debug\net10.0\ContactsApp.Models.pdb
+C:\Users\Asus\OneDrive\Desktop\EntityFrameworkContactsApplication\ContactsApp.Repository\obj\Debug\net10.0\ContactsApp.Repository.csproj.AssemblyReference.cache
+C:\Users\Asus\OneDrive\Desktop\EntityFrameworkContactsApplication\ContactsApp.Repository\obj\Debug\net10.0\ContactsApp.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\OneDrive\Desktop\EntityFrameworkContactsApplication\ContactsApp.Repository\obj\Debug\net10.0\ContactsApp.Repository.AssemblyInfoInputs.cache
+C:\Users\Asus\OneDrive\Desktop\EntityFrameworkContactsApplication\ContactsApp.Repository\obj\Debug\net10.0\ContactsApp.Repository.AssemblyInfo.cs
+C:\Users\Asus\OneDrive\Desktop\EntityFrameworkContactsApplication\ContactsApp.Repository\obj\Debug\net10.0\ContactsApp.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Asus\OneDrive\Desktop\EntityFrameworkContactsApplication\ContactsApp.Repository\obj\Debug\net10.0\ContactsApp.Repository.sourcelink.json
+C:\Users\Asus\OneDrive\Desktop\EntityFrameworkContactsApplication\ContactsApp.Repository\obj\Debug\net10.0\Contacts.3610AF29.Up2Date
+C:\Users\Asus\OneDrive\Desktop\EntityFrameworkContactsApplication\ContactsApp.Repository\obj\Debug\net10.0\ContactsApp.Repository.dll
+C:\Users\Asus\OneDrive\Desktop\EntityFrameworkContactsApplication\ContactsApp.Repository\obj\Debug\net10.0\refint\ContactsApp.Repository.dll
+C:\Users\Asus\OneDrive\Desktop\EntityFrameworkContactsApplication\ContactsApp.Repository\obj\Debug\net10.0\ContactsApp.Repository.pdb
+C:\Users\Asus\OneDrive\Desktop\EntityFrameworkContactsApplication\ContactsApp.Repository\obj\Debug\net10.0\ref\ContactsApp.Repository.dll
