@@ -1,0 +1,12 @@
+C:\Users\Asus\OneDrive\Desktop\EmployeePayrollApplication\EmployeePayRoll.Models\bin\Debug\net10.0\EmployeePayRoll.Models.deps.json
+C:\Users\Asus\OneDrive\Desktop\EmployeePayrollApplication\EmployeePayRoll.Models\bin\Debug\net10.0\EmployeePayRoll.Models.dll
+C:\Users\Asus\OneDrive\Desktop\EmployeePayrollApplication\EmployeePayRoll.Models\bin\Debug\net10.0\EmployeePayRoll.Models.pdb
+C:\Users\Asus\OneDrive\Desktop\EmployeePayrollApplication\EmployeePayRoll.Models\obj\Debug\net10.0\EmployeePayRoll.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\OneDrive\Desktop\EmployeePayrollApplication\EmployeePayRoll.Models\obj\Debug\net10.0\EmployeePayRoll.Models.AssemblyInfoInputs.cache
+C:\Users\Asus\OneDrive\Desktop\EmployeePayrollApplication\EmployeePayRoll.Models\obj\Debug\net10.0\EmployeePayRoll.Models.AssemblyInfo.cs
+C:\Users\Asus\OneDrive\Desktop\EmployeePayrollApplication\EmployeePayRoll.Models\obj\Debug\net10.0\EmployeePayRoll.Models.csproj.CoreCompileInputs.cache
+C:\Users\Asus\OneDrive\Desktop\EmployeePayrollApplication\EmployeePayRoll.Models\obj\Debug\net10.0\EmployeePayRoll.Models.sourcelink.json
+C:\Users\Asus\OneDrive\Desktop\EmployeePayrollApplication\EmployeePayRoll.Models\obj\Debug\net10.0\EmployeePayRoll.Models.dll
+C:\Users\Asus\OneDrive\Desktop\EmployeePayrollApplication\EmployeePayRoll.Models\obj\Debug\net10.0\refint\EmployeePayRoll.Models.dll
+C:\Users\Asus\OneDrive\Desktop\EmployeePayrollApplication\EmployeePayRoll.Models\obj\Debug\net10.0\EmployeePayRoll.Models.pdb
+C:\Users\Asus\OneDrive\Desktop\EmployeePayrollApplication\EmployeePayRoll.Models\obj\Debug\net10.0\ref\EmployeePayRoll.Models.dll

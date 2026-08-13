@@ -1,0 +1,16 @@
+C:\Users\Asus\OneDrive\Desktop\EmployeePayrollApplication\EmployeePayRoll.Repository\obj\Debug\net10.0\EmployeePayRoll.Repository.csproj.AssemblyReference.cache
+C:\Users\Asus\OneDrive\Desktop\EmployeePayrollApplication\EmployeePayRoll.Repository\obj\Debug\net10.0\EmployeePayRoll.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\OneDrive\Desktop\EmployeePayrollApplication\EmployeePayRoll.Repository\obj\Debug\net10.0\EmployeePayRoll.Repository.AssemblyInfoInputs.cache
+C:\Users\Asus\OneDrive\Desktop\EmployeePayrollApplication\EmployeePayRoll.Repository\obj\Debug\net10.0\EmployeePayRoll.Repository.AssemblyInfo.cs
+C:\Users\Asus\OneDrive\Desktop\EmployeePayrollApplication\EmployeePayRoll.Repository\obj\Debug\net10.0\EmployeePayRoll.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Asus\OneDrive\Desktop\EmployeePayrollApplication\EmployeePayRoll.Repository\obj\Debug\net10.0\EmployeePayRoll.Repository.sourcelink.json
+C:\Users\Asus\OneDrive\Desktop\EmployeePayrollApplication\EmployeePayRoll.Repository\bin\Debug\net10.0\EmployeePayRoll.Repository.deps.json
+C:\Users\Asus\OneDrive\Desktop\EmployeePayrollApplication\EmployeePayRoll.Repository\bin\Debug\net10.0\EmployeePayRoll.Repository.dll
+C:\Users\Asus\OneDrive\Desktop\EmployeePayrollApplication\EmployeePayRoll.Repository\bin\Debug\net10.0\EmployeePayRoll.Repository.pdb
+C:\Users\Asus\OneDrive\Desktop\EmployeePayrollApplication\EmployeePayRoll.Repository\bin\Debug\net10.0\EmployeePayRoll.Models.dll
+C:\Users\Asus\OneDrive\Desktop\EmployeePayrollApplication\EmployeePayRoll.Repository\bin\Debug\net10.0\EmployeePayRoll.Models.pdb
+C:\Users\Asus\OneDrive\Desktop\EmployeePayrollApplication\EmployeePayRoll.Repository\obj\Debug\net10.0\Employee.601631BD.Up2Date
+C:\Users\Asus\OneDrive\Desktop\EmployeePayrollApplication\EmployeePayRoll.Repository\obj\Debug\net10.0\EmployeePayRoll.Repository.dll
+C:\Users\Asus\OneDrive\Desktop\EmployeePayrollApplication\EmployeePayRoll.Repository\obj\Debug\net10.0\refint\EmployeePayRoll.Repository.dll
+C:\Users\Asus\OneDrive\Desktop\EmployeePayrollApplication\EmployeePayRoll.Repository\obj\Debug\net10.0\EmployeePayRoll.Repository.pdb
+C:\Users\Asus\OneDrive\Desktop\EmployeePayrollApplication\EmployeePayRoll.Repository\obj\Debug\net10.0\ref\EmployeePayRoll.Repository.dll

@@ -121,3 +121,19 @@ This repository outlines the curriculum and project milestones for the training 
 **Practical Application:**
 * Bootstrap Entity Framework in a new WebAPI project.
 * Continue building the Contacts App backend with EF.
+
+---
+
+### => Day 10: Advanced Entity Framework & N-Tier Architecture
+**Focus:** Layered Architecture & Generic Design Patterns
+
+**Core Concepts:**
+* N-Tier Architecture separation of concerns (Models, Repository, Business, API layers).
+* Generic Repository and Generic Service design patterns for code reusability (DRY principles).
+* Entity relationships (One-to-One, One-to-Many) and Eager Loading (`.Include()`) in Entity Framework Core.
+
+**Practical Application:**
+* Scaffold a multi-layer solution for the Employee Payroll Application.
+* Implement a multi-model database context encompassing Departments, Employees, and Salary Profiles.
+* Build generic CRUD repositories and strictly typed business services.
+* Expose RESTful endpoints using ASP.NET Core WebAPI and test relational data creation via Swagger.
