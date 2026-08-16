@@ -137,3 +137,16 @@ This repository outlines the curriculum and project milestones for the training 
 * Implement a multi-model database context encompassing Departments, Employees, and Salary Profiles.
 * Build generic CRUD repositories and strictly typed business services.
 * Expose RESTful endpoints using ASP.NET Core WebAPI and test relational data creation via Swagger.
+
+---
+
+### => Day 11: Relational Data Management & Handling Cycles
+**Focus:** One-to-Many Relationships & JSON Serialization
+
+**Core Concepts:**
+* Implementing One-to-Many entity relationships using foreign keys and navigation properties in Entity Framework Core.
+
+**Practical Application:**
+* Develop an N-Tier Address Book Application capable of managing multiple address books and their respective contacts.
+* Build custom repositories that extend generic base classes to support complex relational data fetching.
+* Configure ASP.NET Core controllers to safely serialize nested relational data and test the endpoints via Swagger.

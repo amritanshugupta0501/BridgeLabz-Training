@@ -1,0 +1,16 @@
+C:\Users\Asus\OneDrive\Desktop\AddressBookApplication\AddressBook.Repository\bin\Debug\net10.0\AddressBook.Repository.deps.json
+C:\Users\Asus\OneDrive\Desktop\AddressBookApplication\AddressBook.Repository\bin\Debug\net10.0\AddressBook.Repository.dll
+C:\Users\Asus\OneDrive\Desktop\AddressBookApplication\AddressBook.Repository\bin\Debug\net10.0\AddressBook.Repository.pdb
+C:\Users\Asus\OneDrive\Desktop\AddressBookApplication\AddressBook.Repository\bin\Debug\net10.0\AddressBook.Models.dll
+C:\Users\Asus\OneDrive\Desktop\AddressBookApplication\AddressBook.Repository\bin\Debug\net10.0\AddressBook.Models.pdb
+C:\Users\Asus\OneDrive\Desktop\AddressBookApplication\AddressBook.Repository\obj\Debug\net10.0\AddressBook.Repository.csproj.AssemblyReference.cache
+C:\Users\Asus\OneDrive\Desktop\AddressBookApplication\AddressBook.Repository\obj\Debug\net10.0\AddressBook.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\OneDrive\Desktop\AddressBookApplication\AddressBook.Repository\obj\Debug\net10.0\AddressBook.Repository.AssemblyInfoInputs.cache
+C:\Users\Asus\OneDrive\Desktop\AddressBookApplication\AddressBook.Repository\obj\Debug\net10.0\AddressBook.Repository.AssemblyInfo.cs
+C:\Users\Asus\OneDrive\Desktop\AddressBookApplication\AddressBook.Repository\obj\Debug\net10.0\AddressBook.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Asus\OneDrive\Desktop\AddressBookApplication\AddressBook.Repository\obj\Debug\net10.0\AddressBook.Repository.sourcelink.json
+C:\Users\Asus\OneDrive\Desktop\AddressBookApplication\AddressBook.Repository\obj\Debug\net10.0\AddressB.C66BA598.Up2Date
+C:\Users\Asus\OneDrive\Desktop\AddressBookApplication\AddressBook.Repository\obj\Debug\net10.0\AddressBook.Repository.dll
+C:\Users\Asus\OneDrive\Desktop\AddressBookApplication\AddressBook.Repository\obj\Debug\net10.0\refint\AddressBook.Repository.dll
+C:\Users\Asus\OneDrive\Desktop\AddressBookApplication\AddressBook.Repository\obj\Debug\net10.0\AddressBook.Repository.pdb
+C:\Users\Asus\OneDrive\Desktop\AddressBookApplication\AddressBook.Repository\obj\Debug\net10.0\ref\AddressBook.Repository.dll

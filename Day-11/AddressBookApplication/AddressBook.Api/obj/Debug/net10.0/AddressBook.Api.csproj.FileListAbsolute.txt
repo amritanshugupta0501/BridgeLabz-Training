@@ -1,0 +1,9 @@
+C:\Users\Asus\OneDrive\Desktop\AddressBookApplication\AddressBook.Api\obj\Debug\net10.0\AddressBook.Api.csproj.AssemblyReference.cache
+C:\Users\Asus\OneDrive\Desktop\AddressBookApplication\AddressBook.Api\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\Asus\OneDrive\Desktop\AddressBookApplication\AddressBook.Api\obj\Debug\net10.0\AddressBook.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\OneDrive\Desktop\AddressBookApplication\AddressBook.Api\obj\Debug\net10.0\AddressBook.Api.AssemblyInfoInputs.cache
+C:\Users\Asus\OneDrive\Desktop\AddressBookApplication\AddressBook.Api\obj\Debug\net10.0\AddressBook.Api.AssemblyInfo.cs
+C:\Users\Asus\OneDrive\Desktop\AddressBookApplication\AddressBook.Api\obj\Debug\net10.0\AddressBook.Api.csproj.CoreCompileInputs.cache
+C:\Users\Asus\OneDrive\Desktop\AddressBookApplication\AddressBook.Api\obj\Debug\net10.0\AddressBook.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Asus\OneDrive\Desktop\AddressBookApplication\AddressBook.Api\obj\Debug\net10.0\AddressBook.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Asus\OneDrive\Desktop\AddressBookApplication\AddressBook.Api\obj\Debug\net10.0\AddressBook.Api.sourcelink.json
