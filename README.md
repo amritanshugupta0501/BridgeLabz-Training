@@ -150,3 +150,20 @@ This repository outlines the curriculum and project milestones for the training 
 * Develop an N-Tier Address Book Application capable of managing multiple address books and their respective contacts.
 * Build custom repositories that extend generic base classes to support complex relational data fetching.
 * Configure ASP.NET Core controllers to safely serialize nested relational data and test the endpoints via Swagger.
+
+---
+
+### => Day 12: Advance Backend Development
+**Focus:** WebAPI REST Verbs, HttpClient & Action Methods
+
+**Core Concepts:**
+
+* WebAPI REST verbs - GET / POST / PUT / PATCH / DELETE.
+
+* HttpClient for consuming external APIs.
+
+* Action Methods in ASP.NET Core Controllers.
+
+**Practical Application:**
+
+* Fundoo Notes App - User Management Module: user login, registration, password recovery.
