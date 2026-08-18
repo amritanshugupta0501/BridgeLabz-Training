@@ -153,7 +153,7 @@ This repository outlines the curriculum and project milestones for the training 
 
 ---
 
-### => Day 12: Advance Backend Development
+### => Day 12: Advance Backend Development(1)
 **Focus:** WebAPI REST Verbs, HttpClient & Action Methods
 
 **Core Concepts:**
@@ -167,3 +167,20 @@ This repository outlines the curriculum and project milestones for the training 
 **Practical Application:**
 
 * Fundoo Notes App - User Management Module: user login, registration, password recovery.
+
+---
+
+### => Day 13: Advance Backend Development(2)
+**Focus:** Dependency Injection, CORS, Reverse Proxy
+
+**Core Concepts:**
+
+* Dependency Injection deep drive.
+
+* Routing Configuration, Reverse Proxy Concepts.
+
+* Cross-Origin Resource Sharing
+
+**Practical Application:**
+
+* Fundoo Notes App - Integrated Authentification and Authtorization.
