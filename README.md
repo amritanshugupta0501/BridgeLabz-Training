@@ -179,8 +179,25 @@ This repository outlines the curriculum and project milestones for the training 
 
 * Routing Configuration, Reverse Proxy Concepts.
 
-* Cross-Origin Resource Sharing
+* Cross-Origin Resource Sharing.
 
 **Practical Application:**
 
 * Fundoo Notes App - Integrated Authentification and Authtorization.
+
+---
+
+### => Day 14: Advance Backend Development(3)
+**Focus:** JWT, AuthN vs AuthZ, OAuth & SSO
+
+**Core Concepts:**
+
+* Request/Response - SMD Format.
+
+* JWT Based Authentication.
+
+* AuthN vs AuthZ, OAuth, Single Sign-On(SSO).
+
+**Practical Application:**
+
+* Fundoo Notes App - Notes Module Management.
