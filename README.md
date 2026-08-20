@@ -201,3 +201,18 @@ This repository outlines the curriculum and project milestones for the training 
 **Practical Application:**
 
 * Fundoo Notes App - Notes Module Management.
+
+---
+
+### => Day 15: Advance Backend Development(4)
+**Focus:** Entity Framework, CQRS & Linq
+
+**Core Concepts:**
+
+* Command Query Responsibility Segregation design pattern.
+
+* Linq - Advanced Querying.
+
+**Practical Application:**
+
+* Fundoo Notes App - Pin & Archive Module.

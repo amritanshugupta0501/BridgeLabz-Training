@@ -1,0 +1,16 @@
+C:\Users\Asus\OneDrive\Desktop\FundooNotesApp\FundooNotesApp.Repository\bin\Debug\net10.0\FundooNotesApp.Repository.deps.json
+C:\Users\Asus\OneDrive\Desktop\FundooNotesApp\FundooNotesApp.Repository\bin\Debug\net10.0\FundooNotesApp.Repository.dll
+C:\Users\Asus\OneDrive\Desktop\FundooNotesApp\FundooNotesApp.Repository\bin\Debug\net10.0\FundooNotesApp.Repository.pdb
+C:\Users\Asus\OneDrive\Desktop\FundooNotesApp\FundooNotesApp.Repository\bin\Debug\net10.0\FundooNotesApp.Models.dll
+C:\Users\Asus\OneDrive\Desktop\FundooNotesApp\FundooNotesApp.Repository\bin\Debug\net10.0\FundooNotesApp.Models.pdb
+C:\Users\Asus\OneDrive\Desktop\FundooNotesApp\FundooNotesApp.Repository\obj\Debug\net10.0\FundooNotesApp.Repository.csproj.AssemblyReference.cache
+C:\Users\Asus\OneDrive\Desktop\FundooNotesApp\FundooNotesApp.Repository\obj\Debug\net10.0\FundooNotesApp.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\OneDrive\Desktop\FundooNotesApp\FundooNotesApp.Repository\obj\Debug\net10.0\FundooNotesApp.Repository.AssemblyInfoInputs.cache
+C:\Users\Asus\OneDrive\Desktop\FundooNotesApp\FundooNotesApp.Repository\obj\Debug\net10.0\FundooNotesApp.Repository.AssemblyInfo.cs
+C:\Users\Asus\OneDrive\Desktop\FundooNotesApp\FundooNotesApp.Repository\obj\Debug\net10.0\FundooNotesApp.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Asus\OneDrive\Desktop\FundooNotesApp\FundooNotesApp.Repository\obj\Debug\net10.0\FundooNotesApp.Repository.sourcelink.json
+C:\Users\Asus\OneDrive\Desktop\FundooNotesApp\FundooNotesApp.Repository\obj\Debug\net10.0\FundooNo.13F75056.Up2Date
+C:\Users\Asus\OneDrive\Desktop\FundooNotesApp\FundooNotesApp.Repository\obj\Debug\net10.0\FundooNotesApp.Repository.dll
+C:\Users\Asus\OneDrive\Desktop\FundooNotesApp\FundooNotesApp.Repository\obj\Debug\net10.0\refint\FundooNotesApp.Repository.dll
+C:\Users\Asus\OneDrive\Desktop\FundooNotesApp\FundooNotesApp.Repository\obj\Debug\net10.0\FundooNotesApp.Repository.pdb
+C:\Users\Asus\OneDrive\Desktop\FundooNotesApp\FundooNotesApp.Repository\obj\Debug\net10.0\ref\FundooNotesApp.Repository.dll
