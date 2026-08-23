@@ -216,3 +216,24 @@ This repository outlines the curriculum and project milestones for the training 
 **Practical Application:**
 
 * Fundoo Notes App - Pin & Archive Module.
+
+---
+
+### => Day 16: Advance Backend Development(5)
+**Focus:** Pub-Sub Pattern, Unit Testing, Logging & API Docs
+
+**Core Concepts:**
+
+* Pub-sub pattern for event-driven communication
+
+* Unit Testing with MSTest
+
+* Logging with NLog
+
+* API Testing with Postman; API Documentation with Swagger
+
+**Practical Application:**
+
+* Fundoo Notes App - Tags / Labels Management Module
+
+* Write MSTest unit tests and Swagger docs for existing endpoints
