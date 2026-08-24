@@ -237,3 +237,22 @@ This repository outlines the curriculum and project milestones for the training 
 * Fundoo Notes App - Tags / Labels Management Module
 
 * Write MSTest unit tests and Swagger docs for existing endpoints
+
+---
+
+### => Day 17: Advance Backend Development(6)
+**Focus:** ASP.NET Identity, WebAPI Filters, StyleCop & Session Management
+
+**Core Concepts:**
+
+* ASP.NET Identity — user identity management
+
+* WebAPI Filters, StyleCop for code-style enforcement
+
+* Session Management
+
+**Practical Application:**
+
+* Fundoo Notes App — Reminder & Notification Module
+
+* Queuing via RabbitMQ for asynchronous, non-blocking background processes
