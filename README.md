@@ -256,3 +256,22 @@ This repository outlines the curriculum and project milestones for the training 
 * Fundoo Notes App — Reminder & Notification Module
 
 * Queuing via RabbitMQ for asynchronous, non-blocking background processes
+
+---
+
+### => Day 18: Advance Backend Development(7)
+**Focus:** REST API Security & Caching
+
+**Core Concepts:**
+
+* Security: REST API Security principles
+
+* Encryption & Decryption; Hashing Algorithms
+
+* Caching with Redis
+
+**Practical Application:**
+
+* Fundoo Notes App — Token Caching via Redis
+
+* Consolidate and harden the full Fundoo Notes App backend
