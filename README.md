@@ -275,3 +275,18 @@ This repository outlines the curriculum and project milestones for the training 
 * Fundoo Notes App — Token Caching via Redis
 
 * Consolidate and harden the full Fundoo Notes App backend
+
+---
+
+### => Day 19: Microservices
+**Focus:** Monolith vs Microservices & .NET Microservices Fundamentals
+
+**Core Concepts:**
+
+* Architecture: Monolith vs Microservices – trade-offs
+
+* .NET Microservices – project structure and inter-service communication
+
+**Practical Application:**
+
+* Decomposing the Fundoo Notes App into microservices (User Management, Auth)
